@@ -1,0 +1,7 @@
+C:\LeetCode\LeetCode\20. Valid Parentheses\bin\Debug\_20.Valid_Parentheses.exe.config
+C:\LeetCode\LeetCode\20. Valid Parentheses\bin\Debug\_20.Valid_Parentheses.exe
+C:\LeetCode\LeetCode\20. Valid Parentheses\bin\Debug\_20.Valid_Parentheses.pdb
+C:\LeetCode\LeetCode\20. Valid Parentheses\obj\Debug\20. Valid Parentheses.csprojAssemblyReference.cache
+C:\LeetCode\LeetCode\20. Valid Parentheses\obj\Debug\20. Valid Parentheses.csproj.CoreCompileInputs.cache
+C:\LeetCode\LeetCode\20. Valid Parentheses\obj\Debug\_20.Valid_Parentheses.exe
+C:\LeetCode\LeetCode\20. Valid Parentheses\obj\Debug\_20.Valid_Parentheses.pdb
