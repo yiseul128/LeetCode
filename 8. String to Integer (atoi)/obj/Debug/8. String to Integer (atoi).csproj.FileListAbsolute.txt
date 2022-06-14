@@ -1,0 +1,6 @@
+C:\LeetCode\8. String to Integer (atoi)\bin\Debug\_8.String_to_Integer__atoi_.exe.config
+C:\LeetCode\8. String to Integer (atoi)\bin\Debug\_8.String_to_Integer__atoi_.exe
+C:\LeetCode\8. String to Integer (atoi)\bin\Debug\_8.String_to_Integer__atoi_.pdb
+C:\LeetCode\8. String to Integer (atoi)\obj\Debug\8. String to Integer (atoi).csproj.CoreCompileInputs.cache
+C:\LeetCode\8. String to Integer (atoi)\obj\Debug\_8.String_to_Integer__atoi_.exe
+C:\LeetCode\8. String to Integer (atoi)\obj\Debug\_8.String_to_Integer__atoi_.pdb
