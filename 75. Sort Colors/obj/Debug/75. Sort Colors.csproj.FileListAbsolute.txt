@@ -1,0 +1,7 @@
+C:\LeetCode\75. Sort Colors\bin\Debug\_75.Sort_Colors.exe.config
+C:\LeetCode\75. Sort Colors\bin\Debug\_75.Sort_Colors.exe
+C:\LeetCode\75. Sort Colors\bin\Debug\_75.Sort_Colors.pdb
+C:\LeetCode\75. Sort Colors\obj\Debug\75. Sort Colors.csprojAssemblyReference.cache
+C:\LeetCode\75. Sort Colors\obj\Debug\75. Sort Colors.csproj.CoreCompileInputs.cache
+C:\LeetCode\75. Sort Colors\obj\Debug\_75.Sort_Colors.exe
+C:\LeetCode\75. Sort Colors\obj\Debug\_75.Sort_Colors.pdb

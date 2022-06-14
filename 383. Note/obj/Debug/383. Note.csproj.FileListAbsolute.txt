@@ -1,0 +1,7 @@
+C:\LeetCode\383. Note\bin\Debug\_383.Note.exe.config
+C:\LeetCode\383. Note\bin\Debug\_383.Note.exe
+C:\LeetCode\383. Note\bin\Debug\_383.Note.pdb
+C:\LeetCode\383. Note\obj\Debug\383. Note.csprojAssemblyReference.cache
+C:\LeetCode\383. Note\obj\Debug\383. Note.csproj.CoreCompileInputs.cache
+C:\LeetCode\383. Note\obj\Debug\_383.Note.exe
+C:\LeetCode\383. Note\obj\Debug\_383.Note.pdb
