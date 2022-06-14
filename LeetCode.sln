@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41. First Missing Positive"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Reverse Integer", "7. Reverse Integer\7. Reverse Integer.csproj", "{2032B063-D0C6-42CA-A3B3-7B177593A8AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Longest Substring Without Repeating Characters", "3. Longest Substring Without Repeating Characters\3. Longest Substring Without Repeating Characters.csproj", "{6D676449-C659-454A-A8AB-DF4D55EC577F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2032B063-D0C6-42CA-A3B3-7B177593A8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2032B063-D0C6-42CA-A3B3-7B177593A8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2032B063-D0C6-42CA-A3B3-7B177593A8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D676449-C659-454A-A8AB-DF4D55EC577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D676449-C659-454A-A8AB-DF4D55EC577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D676449-C659-454A-A8AB-DF4D55EC577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D676449-C659-454A-A8AB-DF4D55EC577F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
