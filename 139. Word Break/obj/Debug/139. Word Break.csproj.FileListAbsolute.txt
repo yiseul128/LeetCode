@@ -1,0 +1,7 @@
+C:\LeetCode\139. Word Break\bin\Debug\_139.Word_Break.exe.config
+C:\LeetCode\139. Word Break\bin\Debug\_139.Word_Break.exe
+C:\LeetCode\139. Word Break\bin\Debug\_139.Word_Break.pdb
+C:\LeetCode\139. Word Break\obj\Debug\139. Word Break.csprojAssemblyReference.cache
+C:\LeetCode\139. Word Break\obj\Debug\139. Word Break.csproj.CoreCompileInputs.cache
+C:\LeetCode\139. Word Break\obj\Debug\_139.Word_Break.exe
+C:\LeetCode\139. Word Break\obj\Debug\_139.Word_Break.pdb
