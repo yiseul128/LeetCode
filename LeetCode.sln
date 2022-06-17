@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "73. Set Matrix Zeroes", "73
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "139. Word Break", "139. Word Break\139. Word Break.csproj", "{CC4D7D4D-85C1-4B36-950B-1D18FF667C48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "134. Gas Station", "134. Gas Station\134. Gas Station.csproj", "{6F662C50-0D54-4350-ABB7-072D150CB326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{CC4D7D4D-85C1-4B36-950B-1D18FF667C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4D7D4D-85C1-4B36-950B-1D18FF667C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4D7D4D-85C1-4B36-950B-1D18FF667C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F662C50-0D54-4350-ABB7-072D150CB326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F662C50-0D54-4350-ABB7-072D150CB326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F662C50-0D54-4350-ABB7-072D150CB326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F662C50-0D54-4350-ABB7-072D150CB326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

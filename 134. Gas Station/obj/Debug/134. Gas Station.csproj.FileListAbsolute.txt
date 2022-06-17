@@ -1,0 +1,7 @@
+C:\LeetCode\134. Gas Station\bin\Debug\_134.Gas_Station.exe.config
+C:\LeetCode\134. Gas Station\bin\Debug\_134.Gas_Station.exe
+C:\LeetCode\134. Gas Station\bin\Debug\_134.Gas_Station.pdb
+C:\LeetCode\134. Gas Station\obj\Debug\134. Gas Station.csprojAssemblyReference.cache
+C:\LeetCode\134. Gas Station\obj\Debug\134. Gas Station.csproj.CoreCompileInputs.cache
+C:\LeetCode\134. Gas Station\obj\Debug\_134.Gas_Station.exe
+C:\LeetCode\134. Gas Station\obj\Debug\_134.Gas_Station.pdb
