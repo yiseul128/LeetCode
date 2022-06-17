@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "139. Word Break", "139. Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "134. Gas Station", "134. Gas Station\134. Gas Station.csproj", "{6F662C50-0D54-4350-ABB7-072D150CB326}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix", "14. Longest Common Prefix\14. Longest Common Prefix.csproj", "{67DDB875-98B0-4122-8683-B275A5206B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "162. Find Peak Element", "162. Find Peak Element\162. Find Peak Element.csproj", "{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{6F662C50-0D54-4350-ABB7-072D150CB326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F662C50-0D54-4350-ABB7-072D150CB326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F662C50-0D54-4350-ABB7-072D150CB326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DDB875-98B0-4122-8683-B275A5206B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DDB875-98B0-4122-8683-B275A5206B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DDB875-98B0-4122-8683-B275A5206B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DDB875-98B0-4122-8683-B275A5206B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
