@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "162. Find Peak Element", "162. Find Peak Element\162. Find Peak Element.csproj", "{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{AED94886-1F71-4473-9C4A-33EBD236FEEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FE7EEC1-5FA9-4CED-8572-EDED458410A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
