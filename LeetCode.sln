@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "162. Find Peak Element", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{AED94886-1F71-4473-9C4A-33EBD236FEEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283. Move Zeroes", "283. Move Zeroes\283. Move Zeroes.csproj", "{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED94886-1F71-4473-9C4A-33EBD236FEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
