@@ -1,0 +1,7 @@
+C:\LeetCode\217. Contains Duplicate\bin\Debug\_217.Contains_Duplicate.exe.config
+C:\LeetCode\217. Contains Duplicate\bin\Debug\_217.Contains_Duplicate.exe
+C:\LeetCode\217. Contains Duplicate\bin\Debug\_217.Contains_Duplicate.pdb
+C:\LeetCode\217. Contains Duplicate\obj\Debug\217. Contains Duplicate.csprojAssemblyReference.cache
+C:\LeetCode\217. Contains Duplicate\obj\Debug\217. Contains Duplicate.csproj.CoreCompileInputs.cache
+C:\LeetCode\217. Contains Duplicate\obj\Debug\_217.Contains_Duplicate.exe
+C:\LeetCode\217. Contains Duplicate\obj\Debug\_217.Contains_Duplicate.pdb
