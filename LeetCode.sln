@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283. Move Zeroes", "283. Move Zeroes\283. Move Zeroes.csproj", "{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "739. Daily Temperatures", "739. Daily Temperatures\739. Daily Temperatures.csproj", "{4E4A8283-EAE1-42F1-BBBD-A31B9A47CE62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Longest Palindromic Substring", "5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{9A0EF813-11F7-4A4B-B6DE-7B4267BB8631}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74484FC9-511D-4B03-B1D2-BD27B2C47DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4A8283-EAE1-42F1-BBBD-A31B9A47CE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4A8283-EAE1-42F1-BBBD-A31B9A47CE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4A8283-EAE1-42F1-BBBD-A31B9A47CE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4A8283-EAE1-42F1-BBBD-A31B9A47CE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0EF813-11F7-4A4B-B6DE-7B4267BB8631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0EF813-11F7-4A4B-B6DE-7B4267BB8631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0EF813-11F7-4A4B-B6DE-7B4267BB8631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0EF813-11F7-4A4B-B6DE-7B4267BB8631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
