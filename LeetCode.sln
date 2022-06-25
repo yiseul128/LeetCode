@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{1F648B93-99D6-4D70-A6E5-CC2E36EEC163}"
 EndProject
@@ -43,7 +43,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217. Contains Duplicate", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.csproj", "{E39887C7-1481-45F4-A400-93B8DA750C20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "153. Find Minimum in Rotated Sorted Array", "153. Find Minimum in Rotated Sorted Array\153. Find Minimum in Rotated Sorted Array.csproj", "{051148EA-E91C-410B-8DC1-15147F66DA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "153. Find Minimum in Rotated Sorted Array", "153. Find Minimum in Rotated Sorted Array\153. Find Minimum in Rotated Sorted Array.csproj", "{051148EA-E91C-410B-8DC1-15147F66DA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33. Search in Rotated Sorted Array", "33. Search in Rotated Sorted Array\33. Search in Rotated Sorted Array.csproj", "{EE6CF3F9-996D-4827-B7AC-3678DAFDF848}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{051148EA-E91C-410B-8DC1-15147F66DA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051148EA-E91C-410B-8DC1-15147F66DA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051148EA-E91C-410B-8DC1-15147F66DA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6CF3F9-996D-4827-B7AC-3678DAFDF848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6CF3F9-996D-4827-B7AC-3678DAFDF848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6CF3F9-996D-4827-B7AC-3678DAFDF848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6CF3F9-996D-4827-B7AC-3678DAFDF848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

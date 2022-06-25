@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "feDPUlNgrkmvas4rJjcecP34zp8sNToHWjSuya51K9wkJ0tzUp08wvGjwuaQABaKwY5NpnGksIcOCYEH8weICQ==",
+  "dgSpecHash": "P4UgSWfV1//S8+gNoLZUt0SR7zBtB9A/sEXQkfthe9OTnSKlm4vYEqpFvoAIyXqOOdU8McuqPNtwIuccNKOmxg==",
   "success": true,
   "projectFilePath": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
+  ],
   "logs": []
 }
