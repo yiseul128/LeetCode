@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33. Search in Rotated Sorte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{FF272BED-B945-4DD8-930C-A070E994837A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "48. Rotate Image", "48. Rotate Image\48. Rotate Image.csproj", "{B2FCF3EC-E214-4100-8D48-87C150F57300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53. Maximum Subarray", "53. Maximum Subarray\53. Maximum Subarray.csproj", "{4F334E5C-B503-4DC2-A7F4-2C1A78A9C3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{FF272BED-B945-4DD8-930C-A070E994837A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF272BED-B945-4DD8-930C-A070E994837A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF272BED-B945-4DD8-930C-A070E994837A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FCF3EC-E214-4100-8D48-87C150F57300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FCF3EC-E214-4100-8D48-87C150F57300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FCF3EC-E214-4100-8D48-87C150F57300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FCF3EC-E214-4100-8D48-87C150F57300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F334E5C-B503-4DC2-A7F4-2C1A78A9C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F334E5C-B503-4DC2-A7F4-2C1A78A9C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F334E5C-B503-4DC2-A7F4-2C1A78A9C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F334E5C-B503-4DC2-A7F4-2C1A78A9C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
