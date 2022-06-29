@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "152. Maximum Product Subarr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "268. Missing Number", "268. Missing Number\268. Missing Number.csproj", "{C73C9237-C0E8-4905-8BF1-513DF4774B1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "191. Number of 1 Bits", "191. Number of 1 Bits\191. Number of 1 Bits.csproj", "{0514DC06-5C80-4617-AED4-947F88400495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{C73C9237-C0E8-4905-8BF1-513DF4774B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73C9237-C0E8-4905-8BF1-513DF4774B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73C9237-C0E8-4905-8BF1-513DF4774B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0514DC06-5C80-4617-AED4-947F88400495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0514DC06-5C80-4617-AED4-947F88400495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0514DC06-5C80-4617-AED4-947F88400495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0514DC06-5C80-4617-AED4-947F88400495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

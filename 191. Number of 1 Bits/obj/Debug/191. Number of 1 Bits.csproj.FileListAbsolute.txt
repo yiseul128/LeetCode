@@ -1,0 +1,8 @@
+C:\LeetCode\191. Number of 1 Bits\bin\Debug\_191.Number_of_1_Bits.exe.config
+C:\LeetCode\191. Number of 1 Bits\bin\Debug\_191.Number_of_1_Bits.exe
+C:\LeetCode\191. Number of 1 Bits\bin\Debug\_191.Number_of_1_Bits.pdb
+C:\LeetCode\191. Number of 1 Bits\obj\Debug\191. Number of 1 Bits.csproj.AssemblyReference.cache
+C:\LeetCode\191. Number of 1 Bits\obj\Debug\191. Number of 1 Bits.csproj.SuggestedBindingRedirects.cache
+C:\LeetCode\191. Number of 1 Bits\obj\Debug\191. Number of 1 Bits.csproj.CoreCompileInputs.cache
+C:\LeetCode\191. Number of 1 Bits\obj\Debug\_191.Number_of_1_Bits.exe
+C:\LeetCode\191. Number of 1 Bits\obj\Debug\_191.Number_of_1_Bits.pdb
