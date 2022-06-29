@@ -1,0 +1,8 @@
+C:\LeetCode\268. Missing Number\bin\Debug\_268.Missing_Number.exe.config
+C:\LeetCode\268. Missing Number\bin\Debug\_268.Missing_Number.exe
+C:\LeetCode\268. Missing Number\bin\Debug\_268.Missing_Number.pdb
+C:\LeetCode\268. Missing Number\obj\Debug\268. Missing Number.csproj.AssemblyReference.cache
+C:\LeetCode\268. Missing Number\obj\Debug\268. Missing Number.csproj.SuggestedBindingRedirects.cache
+C:\LeetCode\268. Missing Number\obj\Debug\268. Missing Number.csproj.CoreCompileInputs.cache
+C:\LeetCode\268. Missing Number\obj\Debug\_268.Missing_Number.exe
+C:\LeetCode\268. Missing Number\obj\Debug\_268.Missing_Number.pdb
