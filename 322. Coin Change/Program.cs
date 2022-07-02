@@ -13,17 +13,16 @@ namespace _322.Coin_Change
             Solution solution = new Solution();
             int[] c = { 3, 2, 9 };
             int a = 12;
-            Console.WriteLine(solution.CoinChange(c, a));
+            Console.WriteLine(solution.CoinChange(c, a)); //2
         }
     }
-
     public class Solution
     {
         public int CoinChange(int[] coins, int amount)
         {
-            const int INT_MAX = 2147483646;
+            const int INT_MAX = 100000;
 
-            Array.Sort(coins);
+            //Array.Sort(coins);
 
             if (amount == 0)
             {
@@ -33,21 +32,12 @@ namespace _322.Coin_Change
             int rn = coins.Length + 1; //row for coins
             int cn = amount + 1; //col for amounts
 
-            int[,] dp = new int[rn, cn];
+            int[] dp = new int[cn];
 
             //init
-            for (int r = 0; r < rn; r++)
+            for (int c = 1; c < cn; c++)
             {
-                for (int c = 0; c < cn; c++)
-                {
-                    dp[r, c] = INT_MAX;
-                }
-            }
-
-            //for amount = 0 
-            for (int i = 0; i < rn; i++)
-            {
-                dp[i, 0] = 0;
+                dp[c] = INT_MAX;
             }
 
             for (int r = 1; r < rn; r++)
@@ -55,27 +45,22 @@ namespace _322.Coin_Change
                 for (int c = 1; c < cn; c++)
                 {
 
-                    //that coin is less than amount
-                    if (c < coins[r - 1])
+                    if (c >= coins[r - 1])
                     {
-                        dp[r, c] = dp[r - 1, c]; //use the result one row above
-                    }
-                    //
-                    else
-                    {
-                        int used = 1 + dp[r, c - coins[r - 1]]; // 1 + same coins with amount - this coin
-                        int not = dp[r - 1, c];
+                        int used = 1 + dp[c - coins[r - 1]];
+                        int not = dp[c];
 
-                        dp[r, c] = used < not ? used : not;
+                        dp[c] = used < not ? used : not;
                     }
+
                 }
             }
 
-            if (dp[rn - 1, cn - 1] == INT_MAX)
+            if (dp[cn - 1] == INT_MAX)
             {
                 return -1;
             }
-            return dp[rn - 1, cn - 1];
+            return dp[cn - 1];
         }
 
     }
