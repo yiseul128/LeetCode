@@ -1,0 +1,7 @@
+C:\LeetCode\322. Coin Change\bin\Debug\_322.Coin_Change.exe.config
+C:\LeetCode\322. Coin Change\bin\Debug\_322.Coin_Change.exe
+C:\LeetCode\322. Coin Change\bin\Debug\_322.Coin_Change.pdb
+C:\LeetCode\322. Coin Change\obj\Debug\322. Coin Change.csproj.CoreCompileInputs.cache
+C:\LeetCode\322. Coin Change\obj\Debug\_322.Coin_Change.exe
+C:\LeetCode\322. Coin Change\obj\Debug\_322.Coin_Change.pdb
+C:\LeetCode\322. Coin Change\obj\Debug\322. Coin Change.csprojAssemblyReference.cache
