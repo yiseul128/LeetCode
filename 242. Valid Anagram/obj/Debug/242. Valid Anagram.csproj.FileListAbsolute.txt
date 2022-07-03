@@ -1,0 +1,7 @@
+C:\LeetCode\242. Valid Anagram\bin\Debug\_242.Valid_Anagram.exe.config
+C:\LeetCode\242. Valid Anagram\bin\Debug\_242.Valid_Anagram.exe
+C:\LeetCode\242. Valid Anagram\bin\Debug\_242.Valid_Anagram.pdb
+C:\LeetCode\242. Valid Anagram\obj\Debug\242. Valid Anagram.csprojAssemblyReference.cache
+C:\LeetCode\242. Valid Anagram\obj\Debug\242. Valid Anagram.csproj.CoreCompileInputs.cache
+C:\LeetCode\242. Valid Anagram\obj\Debug\_242.Valid_Anagram.exe
+C:\LeetCode\242. Valid Anagram\obj\Debug\_242.Valid_Anagram.pdb
