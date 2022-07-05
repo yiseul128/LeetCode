@@ -1,0 +1,7 @@
+C:\LeetCode\125. Valid Palindrome\bin\Debug\_125.Valid_Palindrome.exe.config
+C:\LeetCode\125. Valid Palindrome\bin\Debug\_125.Valid_Palindrome.exe
+C:\LeetCode\125. Valid Palindrome\bin\Debug\_125.Valid_Palindrome.pdb
+C:\LeetCode\125. Valid Palindrome\obj\Debug\125. Valid Palindrome.csprojAssemblyReference.cache
+C:\LeetCode\125. Valid Palindrome\obj\Debug\125. Valid Palindrome.csproj.CoreCompileInputs.cache
+C:\LeetCode\125. Valid Palindrome\obj\Debug\_125.Valid_Palindrome.exe
+C:\LeetCode\125. Valid Palindrome\obj\Debug\_125.Valid_Palindrome.pdb
