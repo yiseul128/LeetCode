@@ -18,6 +18,14 @@ namespace _242.Valid_Anagram
     {
         public bool IsAnagram(string s, string t)
         {
+            /* simpler answer (not that faster among other leet code answers though)
+             
+            string sortedS = new string (s.OrderBy(c => c).ToArray());
+            string sortedT = new string (t.OrderBy(c => c).ToArray());
+                
+            return (sortedS == sortedT);
+             
+             */
 
             if (s.Length != t.Length)
             {
