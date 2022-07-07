@@ -1,0 +1,7 @@
+C:\LeetCode\54. Spiral Matrix\bin\Debug\_54.Spiral_Matrix.exe.config
+C:\LeetCode\54. Spiral Matrix\bin\Debug\_54.Spiral_Matrix.exe
+C:\LeetCode\54. Spiral Matrix\bin\Debug\_54.Spiral_Matrix.pdb
+C:\LeetCode\54. Spiral Matrix\obj\Debug\54. Spiral Matrix.csprojAssemblyReference.cache
+C:\LeetCode\54. Spiral Matrix\obj\Debug\54. Spiral Matrix.csproj.CoreCompileInputs.cache
+C:\LeetCode\54. Spiral Matrix\obj\Debug\_54.Spiral_Matrix.exe
+C:\LeetCode\54. Spiral Matrix\obj\Debug\_54.Spiral_Matrix.pdb
