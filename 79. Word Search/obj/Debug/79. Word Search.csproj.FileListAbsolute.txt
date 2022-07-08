@@ -1,0 +1,7 @@
+C:\LeetCode\79. Word Search\bin\Debug\_79.Word_Search.exe.config
+C:\LeetCode\79. Word Search\bin\Debug\_79.Word_Search.exe
+C:\LeetCode\79. Word Search\bin\Debug\_79.Word_Search.pdb
+C:\LeetCode\79. Word Search\obj\Debug\79. Word Search.csprojAssemblyReference.cache
+C:\LeetCode\79. Word Search\obj\Debug\79. Word Search.csproj.CoreCompileInputs.cache
+C:\LeetCode\79. Word Search\obj\Debug\_79.Word_Search.exe
+C:\LeetCode\79. Word Search\obj\Debug\_79.Word_Search.pdb

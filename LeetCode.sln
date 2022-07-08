@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "125. Valid Palindrome", "12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54. Spiral Matrix", "54. Spiral Matrix\54. Spiral Matrix.csproj", "{DF1BE4EF-3D08-4C72-B814-A934AA2F15B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79. Word Search", "79. Word Search\79. Word Search.csproj", "{C90AA3B7-1D67-4B1B-86F9-1480832E54D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{DF1BE4EF-3D08-4C72-B814-A934AA2F15B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF1BE4EF-3D08-4C72-B814-A934AA2F15B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF1BE4EF-3D08-4C72-B814-A934AA2F15B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90AA3B7-1D67-4B1B-86F9-1480832E54D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90AA3B7-1D67-4B1B-86F9-1480832E54D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90AA3B7-1D67-4B1B-86F9-1480832E54D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90AA3B7-1D67-4B1B-86F9-1480832E54D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
