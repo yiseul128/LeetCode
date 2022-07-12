@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79. Word Search", "79. Word
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "206. Reverse Linked List", "206. Reverse Linked List\206. Reverse Linked List.csproj", "{7EF50B97-511E-4857-BE5B-CD77EF566F94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Merge Two Sorted Lists", "21. Merge Two Sorted Lists\21. Merge Two Sorted Lists.csproj", "{95AF4B96-7E65-467C-8FA4-DC9D55E9ABA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Remove Nth Node From End of List", "19. Remove Nth Node From End of List\19. Remove Nth Node From End of List.csproj", "{874FAF4D-1506-40B9-8BC4-EB84F7B2D409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +229,14 @@ Global
 		{7EF50B97-511E-4857-BE5B-CD77EF566F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF50B97-511E-4857-BE5B-CD77EF566F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF50B97-511E-4857-BE5B-CD77EF566F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AF4B96-7E65-467C-8FA4-DC9D55E9ABA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AF4B96-7E65-467C-8FA4-DC9D55E9ABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AF4B96-7E65-467C-8FA4-DC9D55E9ABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AF4B96-7E65-467C-8FA4-DC9D55E9ABA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874FAF4D-1506-40B9-8BC4-EB84F7B2D409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874FAF4D-1506-40B9-8BC4-EB84F7B2D409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874FAF4D-1506-40B9-8BC4-EB84F7B2D409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874FAF4D-1506-40B9-8BC4-EB84F7B2D409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
