@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Remove Nth Node From En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "141. Linked List Cycle", "141. Linked List Cycle\141. Linked List Cycle.csproj", "{DE6DA78D-D81F-48F6-B139-B8A3CBF08141}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "143. Reorder List", "143. Reorder List\143. Reorder List.csproj", "{5DA6F762-903A-48B7-91FB-419760488C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{DE6DA78D-D81F-48F6-B139-B8A3CBF08141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6DA78D-D81F-48F6-B139-B8A3CBF08141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6DA78D-D81F-48F6-B139-B8A3CBF08141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA6F762-903A-48B7-91FB-419760488C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA6F762-903A-48B7-91FB-419760488C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA6F762-903A-48B7-91FB-419760488C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA6F762-903A-48B7-91FB-419760488C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
