@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "572. Subtree of Another Tre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "226. Invert Binary Tree", "226. Invert Binary Tree\226. Invert Binary Tree.csproj", "{85617B43-52BD-44C8-A1C2-75948C6928D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104. Maximum Depth of Binary Tree", "104. Maximum Depth of Binary Tree\104. Maximum Depth of Binary Tree.csproj", "{204A16DF-C1CB-4F57-88E5-241ED4A0DA33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{85617B43-52BD-44C8-A1C2-75948C6928D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85617B43-52BD-44C8-A1C2-75948C6928D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85617B43-52BD-44C8-A1C2-75948C6928D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204A16DF-C1CB-4F57-88E5-241ED4A0DA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204A16DF-C1CB-4F57-88E5-241ED4A0DA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204A16DF-C1CB-4F57-88E5-241ED4A0DA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204A16DF-C1CB-4F57-88E5-241ED4A0DA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
