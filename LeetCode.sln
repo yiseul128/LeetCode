@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104. Maximum Depth of Binar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Zigzag Conversion", "6. Zigzag Conversion\6. Zigzag Conversion.csproj", "{B97F4529-72A7-4A1D-9404-09AF6BE1F340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "98. Validate Binary Search Tree", "98. Validate Binary Search Tree\98. Validate Binary Search Tree.csproj", "{5403C8F5-826B-4243-B6C1-1AA20C056F5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{B97F4529-72A7-4A1D-9404-09AF6BE1F340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B97F4529-72A7-4A1D-9404-09AF6BE1F340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B97F4529-72A7-4A1D-9404-09AF6BE1F340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

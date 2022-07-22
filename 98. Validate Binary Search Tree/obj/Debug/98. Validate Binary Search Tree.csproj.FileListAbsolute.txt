@@ -1,0 +1,7 @@
+C:\LeetCode\98. Validate Binary Search Tree\bin\Debug\_98.Validate_Binary_Search_Tree.exe.config
+C:\LeetCode\98. Validate Binary Search Tree\bin\Debug\_98.Validate_Binary_Search_Tree.exe
+C:\LeetCode\98. Validate Binary Search Tree\bin\Debug\_98.Validate_Binary_Search_Tree.pdb
+C:\LeetCode\98. Validate Binary Search Tree\obj\Debug\98. Validate Binary Search Tree.csprojAssemblyReference.cache
+C:\LeetCode\98. Validate Binary Search Tree\obj\Debug\98. Validate Binary Search Tree.csproj.CoreCompileInputs.cache
+C:\LeetCode\98. Validate Binary Search Tree\obj\Debug\_98.Validate_Binary_Search_Tree.exe
+C:\LeetCode\98. Validate Binary Search Tree\obj\Debug\_98.Validate_Binary_Search_Tree.pdb
