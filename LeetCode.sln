@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Zigzag Conversion", "6. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "98. Validate Binary Search Tree", "98. Validate Binary Search Tree\98. Validate Binary Search Tree.csproj", "{5403C8F5-826B-4243-B6C1-1AA20C056F5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "235. Lowest Common Ancestor of a Binary Search Tree", "235. Lowest Common Ancestor of a Binary Search Tree\235. Lowest Common Ancestor of a Binary Search Tree.csproj", "{3FFB04FF-B4ED-45D3-8764-46BF9F0DF9BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +293,10 @@ Global
 		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5403C8F5-826B-4243-B6C1-1AA20C056F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFB04FF-B4ED-45D3-8764-46BF9F0DF9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFB04FF-B4ED-45D3-8764-46BF9F0DF9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFB04FF-B4ED-45D3-8764-46BF9F0DF9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFB04FF-B4ED-45D3-8764-46BF9F0DF9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
