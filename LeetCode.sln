@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "235. Lowest Common Ancestor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230. Kth Smallest Element in a BST", "230. Kth Smallest Element in a BST\230. Kth Smallest Element in a BST.csproj", "{8B55258C-4ADB-4E52-A049-BC70C0856A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102. Binary Tree Level Order Traversal", "102. Binary Tree Level Order Traversal\102. Binary Tree Level Order Traversal.csproj", "{462640E7-324D-4835-A318-31E31FD3029E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{8B55258C-4ADB-4E52-A049-BC70C0856A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B55258C-4ADB-4E52-A049-BC70C0856A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B55258C-4ADB-4E52-A049-BC70C0856A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462640E7-324D-4835-A318-31E31FD3029E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462640E7-324D-4835-A318-31E31FD3029E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462640E7-324D-4835-A318-31E31FD3029E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462640E7-324D-4835-A318-31E31FD3029E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
