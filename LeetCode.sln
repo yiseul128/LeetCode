@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230. Kth Smallest Element i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102. Binary Tree Level Order Traversal", "102. Binary Tree Level Order Traversal\102. Binary Tree Level Order Traversal.csproj", "{462640E7-324D-4835-A318-31E31FD3029E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347. Top K Frequent Elements", "347. Top K Frequent Elements\347. Top K Frequent Elements.csproj", "{2CA9A70A-ADE1-4639-BD4B-08D01267876E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{462640E7-324D-4835-A318-31E31FD3029E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462640E7-324D-4835-A318-31E31FD3029E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462640E7-324D-4835-A318-31E31FD3029E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
