@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102. Binary Tree Level Orde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347. Top K Frequent Elements", "347. Top K Frequent Elements\347. Top K Frequent Elements.csproj", "{2CA9A70A-ADE1-4639-BD4B-08D01267876E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Letter Combinations of a Phone Number", "17. Letter Combinations of a Phone Number\17. Letter Combinations of a Phone Number.csproj", "{9EED2A6F-8DF0-487D-9AAE-F70391F69E23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA9A70A-ADE1-4639-BD4B-08D01267876E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EED2A6F-8DF0-487D-9AAE-F70391F69E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EED2A6F-8DF0-487D-9AAE-F70391F69E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EED2A6F-8DF0-487D-9AAE-F70391F69E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EED2A6F-8DF0-487D-9AAE-F70391F69E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
