@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Letter Combinations of 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Remove Duplicates from Sorted Array", "26. Remove Duplicates from Sorted Array\26. Remove Duplicates from Sorted Array.csproj", "{0E4CA1D2-6BD0-40D0-98B4-0311C54E7729}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "207. Course Schedule", "207. Course Schedule\207. Course Schedule.csproj", "{BFEC4275-C712-4D03-9F06-15319B87797A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +329,10 @@ Global
 		{0E4CA1D2-6BD0-40D0-98B4-0311C54E7729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4CA1D2-6BD0-40D0-98B4-0311C54E7729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4CA1D2-6BD0-40D0-98B4-0311C54E7729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEC4275-C712-4D03-9F06-15319B87797A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEC4275-C712-4D03-9F06-15319B87797A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEC4275-C712-4D03-9F06-15319B87797A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEC4275-C712-4D03-9F06-15319B87797A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

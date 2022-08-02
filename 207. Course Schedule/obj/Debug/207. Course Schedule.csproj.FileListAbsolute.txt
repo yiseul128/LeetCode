@@ -1,0 +1,7 @@
+C:\LeetCode\207. Course Schedule\bin\Debug\_207.Course_Schedule.exe.config
+C:\LeetCode\207. Course Schedule\bin\Debug\_207.Course_Schedule.exe
+C:\LeetCode\207. Course Schedule\bin\Debug\_207.Course_Schedule.pdb
+C:\LeetCode\207. Course Schedule\obj\Debug\207. Course Schedule.csprojAssemblyReference.cache
+C:\LeetCode\207. Course Schedule\obj\Debug\207. Course Schedule.csproj.CoreCompileInputs.cache
+C:\LeetCode\207. Course Schedule\obj\Debug\_207.Course_Schedule.exe
+C:\LeetCode\207. Course Schedule\obj\Debug\_207.Course_Schedule.pdb
