@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "189. Rotate Array", "189. R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "169. Majority Element", "169. Majority Element\169. Majority Element.csproj", "{DEFC4B86-81AF-4AC6-BEF0-9EDE85BB0B06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "204. Count Primes", "204. Count Primes\204. Count Primes.csproj", "{C92DE1D7-B9FB-4B21-8482-D1DC64E8E1FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{DEFC4B86-81AF-4AC6-BEF0-9EDE85BB0B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEFC4B86-81AF-4AC6-BEF0-9EDE85BB0B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEFC4B86-81AF-4AC6-BEF0-9EDE85BB0B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92DE1D7-B9FB-4B21-8482-D1DC64E8E1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92DE1D7-B9FB-4B21-8482-D1DC64E8E1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92DE1D7-B9FB-4B21-8482-D1DC64E8E1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92DE1D7-B9FB-4B21-8482-D1DC64E8E1FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
