@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "204. Count Primes", "204. C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "179. Largest Number", "179. Largest Number\179. Largest Number.csproj", "{1C334003-CDD0-4A97-8835-DD5AA3D771C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "130. Surrounded Regions", "130. Surrounded Regions\130. Surrounded Regions.csproj", "{EFB4F89D-9125-4DFF-AE29-79AA52E23916}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{1C334003-CDD0-4A97-8835-DD5AA3D771C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C334003-CDD0-4A97-8835-DD5AA3D771C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C334003-CDD0-4A97-8835-DD5AA3D771C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
