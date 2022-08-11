@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "179. Largest Number", "179.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "130. Surrounded Regions", "130. Surrounded Regions\130. Surrounded Regions.csproj", "{EFB4F89D-9125-4DFF-AE29-79AA52E23916}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "200. Number of Islands", "200. Number of Islands\200. Number of Islands.csproj", "{F6ADAC0D-CB08-454F-8CFB-B4E800F7A1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -387,6 +389,10 @@ Global
 		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB4F89D-9125-4DFF-AE29-79AA52E23916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6ADAC0D-CB08-454F-8CFB-B4E800F7A1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6ADAC0D-CB08-454F-8CFB-B4E800F7A1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6ADAC0D-CB08-454F-8CFB-B4E800F7A1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6ADAC0D-CB08-454F-8CFB-B4E800F7A1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
