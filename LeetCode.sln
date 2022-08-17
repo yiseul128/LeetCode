@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34. Find First and Last Pos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "215. Kth Largest Element in an Array", "215. Kth Largest Element in an Array\215. Kth Largest Element in an Array.csproj", "{2EC9AB25-EC25-4E47-B82A-9FB201BDF8F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Roman to Integer", "13. Roman to Integer\13. Roman to Integer.csproj", "{FFC2FF11-A639-4C1C-B563-E3774039734E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{2EC9AB25-EC25-4E47-B82A-9FB201BDF8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC9AB25-EC25-4E47-B82A-9FB201BDF8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC9AB25-EC25-4E47-B82A-9FB201BDF8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
