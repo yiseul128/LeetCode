@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "215. Kth Largest Element in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Roman to Integer", "13. Roman to Integer\13. Roman to Integer.csproj", "{FFC2FF11-A639-4C1C-B563-E3774039734E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Integer to Roman", "12. Integer to Roman\12. Integer to Roman.csproj", "{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +425,10 @@ Global
 		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFC2FF11-A639-4C1C-B563-E3774039734E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
