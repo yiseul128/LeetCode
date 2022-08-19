@@ -143,6 +143,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Roman to Integer", "13.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Integer to Roman", "12. Integer to Roman\12. Integer to Roman.csproj", "{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "172. Factorial Trailing Zeroes", "172. Factorial Trailing Zeroes\172. Factorial Trailing Zeroes.csproj", "{985D0111-3F47-4398-9112-CCF33D69E9C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +431,10 @@ Global
 		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8F60EE-F31C-443A-AFE3-8B58F3F2DD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985D0111-3F47-4398-9112-CCF33D69E9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985D0111-3F47-4398-9112-CCF33D69E9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985D0111-3F47-4398-9112-CCF33D69E9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985D0111-3F47-4398-9112-CCF33D69E9C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
