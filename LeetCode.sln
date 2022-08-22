@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "171. Excel Sheet Column Num
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "166. Fraction to Recurring Decimal", "166. Fraction to Recurring Decimal\166. Fraction to Recurring Decimal.csproj", "{517F8390-A244-48F5-B0E7-3774F6FA5D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "146. LRU Cache", "146. LRU Cache\146. LRU Cache.csproj", "{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -453,6 +455,10 @@ Global
 		{517F8390-A244-48F5-B0E7-3774F6FA5D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{517F8390-A244-48F5-B0E7-3774F6FA5D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{517F8390-A244-48F5-B0E7-3774F6FA5D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
