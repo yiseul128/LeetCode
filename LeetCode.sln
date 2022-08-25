@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "166. Fraction to Recurring 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "146. LRU Cache", "146. LRU Cache\146. LRU Cache.csproj", "{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136. Single Number", "136. Single Number\136. Single Number.csproj", "{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,10 @@ Global
 		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B891E7C5-8171-4DAB-AA57-234BA8EBEC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
