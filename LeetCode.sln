@@ -155,6 +155,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "146. LRU Cache", "146. LRU 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136. Single Number", "136. Single Number\136. Single Number.csproj", "{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101. Symmetric Tree", "101. Symmetric Tree\101. Symmetric Tree.csproj", "{564D6C78-C5F0-4B17-9F1E-18DB79E2B083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +467,10 @@ Global
 		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BB51AE0-CC53-47F9-B6FB-C4AFAF2E0482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564D6C78-C5F0-4B17-9F1E-18DB79E2B083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564D6C78-C5F0-4B17-9F1E-18DB79E2B083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564D6C78-C5F0-4B17-9F1E-18DB79E2B083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564D6C78-C5F0-4B17-9F1E-18DB79E2B083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
