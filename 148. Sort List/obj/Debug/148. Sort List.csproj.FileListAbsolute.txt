@@ -1,0 +1,7 @@
+C:\LeetCode\148. Sort List\bin\Debug\_148.Sort_List.exe.config
+C:\LeetCode\148. Sort List\bin\Debug\_148.Sort_List.exe
+C:\LeetCode\148. Sort List\bin\Debug\_148.Sort_List.pdb
+C:\LeetCode\148. Sort List\obj\Debug\148. Sort List.csprojAssemblyReference.cache
+C:\LeetCode\148. Sort List\obj\Debug\148. Sort List.csproj.CoreCompileInputs.cache
+C:\LeetCode\148. Sort List\obj\Debug\_148.Sort_List.exe
+C:\LeetCode\148. Sort List\obj\Debug\_148.Sort_List.pdb

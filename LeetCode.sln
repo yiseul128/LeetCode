@@ -159,6 +159,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101. Symmetric Tree", "101.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. 3Sum", "15. 3Sum\15. 3Sum.csproj", "{CCF75F16-1BDB-4F29-A620-76F6306E2D79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "148. Sort List", "148. Sort List\148. Sort List.csproj", "{86778418-2C8F-450C-8E7B-4C5BDA07E81A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +479,10 @@ Global
 		{CCF75F16-1BDB-4F29-A620-76F6306E2D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCF75F16-1BDB-4F29-A620-76F6306E2D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCF75F16-1BDB-4F29-A620-76F6306E2D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
