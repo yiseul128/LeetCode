@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. 3Sum", "15. 3Sum\15. 3S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "148. Sort List", "148. Sort List\148. Sort List.csproj", "{86778418-2C8F-450C-8E7B-4C5BDA07E81A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Find the Index of the First Occurrence in a String", "28. Find the Index of the First Occurrence in a String\28. Find the Index of the First Occurrence in a String.csproj", "{7906DBCA-C733-45EB-BC0F-AB28742F8840}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86778418-2C8F-450C-8E7B-4C5BDA07E81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7906DBCA-C733-45EB-BC0F-AB28742F8840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7906DBCA-C733-45EB-BC0F-AB28742F8840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7906DBCA-C733-45EB-BC0F-AB28742F8840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7906DBCA-C733-45EB-BC0F-AB28742F8840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
