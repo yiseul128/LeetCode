@@ -179,6 +179,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "387. First Unique Character
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "116. Populating Next Right Pointers in Each Node", "116. Populating Next Right Pointers in Each Node\116. Populating Next Right Pointers in Each Node.csproj", "{8D1AD28C-2884-43BD-AB3B-06990BDAFEC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "149. Max Points on a Line", "149. Max Points on a Line\149. Max Points on a Line.csproj", "{2CB58028-B615-4CC5-B725-4935110A4E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -537,6 +539,10 @@ Global
 		{8D1AD28C-2884-43BD-AB3B-06990BDAFEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1AD28C-2884-43BD-AB3B-06990BDAFEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1AD28C-2884-43BD-AB3B-06990BDAFEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
