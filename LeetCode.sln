@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "116. Populating Next Right 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "149. Max Points on a Line", "149. Max Points on a Line\149. Max Points on a Line.csproj", "{2CB58028-B615-4CC5-B725-4935110A4E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1884. Egg Drop With 2 Eggs and N Floors", "1884. Egg Drop With 2 Eggs and N Floors\1884. Egg Drop With 2 Eggs and N Floors.csproj", "{390F3949-C409-4DC9-B491-D0D5F7D68744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -543,6 +545,10 @@ Global
 		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CB58028-B615-4CC5-B725-4935110A4E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390F3949-C409-4DC9-B491-D0D5F7D68744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390F3949-C409-4DC9-B491-D0D5F7D68744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390F3949-C409-4DC9-B491-D0D5F7D68744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390F3949-C409-4DC9-B491-D0D5F7D68744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
