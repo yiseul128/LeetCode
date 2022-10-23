@@ -185,6 +185,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1884. Egg Drop With 2 Eggs 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "384. Shuffle an Array", "384. Shuffle an Array\384. Shuffle an Array.csproj", "{0238E192-2CBA-4036-900E-47E3D48F44D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "287. Find the Duplicate Number", "287. Find the Duplicate Number\287. Find the Duplicate Number.csproj", "{4D5D8DE6-244F-4F61-AA21-240319710F53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -555,6 +557,10 @@ Global
 		{0238E192-2CBA-4036-900E-47E3D48F44D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0238E192-2CBA-4036-900E-47E3D48F44D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0238E192-2CBA-4036-900E-47E3D48F44D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5D8DE6-244F-4F61-AA21-240319710F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5D8DE6-244F-4F61-AA21-240319710F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5D8DE6-244F-4F61-AA21-240319710F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5D8DE6-244F-4F61-AA21-240319710F53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
