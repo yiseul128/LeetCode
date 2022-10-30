@@ -189,6 +189,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "287. Find the Duplicate Num
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "289. Game of Life", "289. Game of Life\289. Game of Life.csproj", "{A75DCF58-4F4E-4610-BF4C-6008BE149083}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "412. Fizz Buzz", "412. Fizz Buzz\412. Fizz Buzz.csproj", "{BF2F07DA-0367-4B56-AC91-0056E21CC6AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -567,6 +569,10 @@ Global
 		{A75DCF58-4F4E-4610-BF4C-6008BE149083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A75DCF58-4F4E-4610-BF4C-6008BE149083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A75DCF58-4F4E-4610-BF4C-6008BE149083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2F07DA-0367-4B56-AC91-0056E21CC6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2F07DA-0367-4B56-AC91-0056E21CC6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2F07DA-0367-4B56-AC91-0056E21CC6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2F07DA-0367-4B56-AC91-0056E21CC6AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
