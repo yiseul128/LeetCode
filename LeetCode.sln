@@ -195,6 +195,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "344. Reverse String", "344.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "378. Kth Smallest Element in a Sorted Matrix", "378. Kth Smallest Element in a Sorted Matrix\378. Kth Smallest Element in a Sorted Matrix.csproj", "{35700F0A-1247-475B-B942-7BD9A771F044}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "380. Insert Delete GetRandom O(1)", "380. Insert Delete GetRandom O(1)\380. Insert Delete GetRandom O(1).csproj", "{C2ED8779-AB96-495E-9F8A-33F813274E94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -585,6 +587,10 @@ Global
 		{35700F0A-1247-475B-B942-7BD9A771F044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35700F0A-1247-475B-B942-7BD9A771F044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35700F0A-1247-475B-B942-7BD9A771F044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
