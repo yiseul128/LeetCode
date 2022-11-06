@@ -197,6 +197,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "378. Kth Smallest Element i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "380. Insert Delete GetRandom O(1)", "380. Insert Delete GetRandom O(1)\380. Insert Delete GetRandom O(1).csproj", "{C2ED8779-AB96-495E-9F8A-33F813274E94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "328. Odd Even Linked List", "328. Odd Even Linked List\328. Odd Even Linked List.csproj", "{C3418E57-95FA-4611-8878-F2844F72AD28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -591,6 +593,10 @@ Global
 		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2ED8779-AB96-495E-9F8A-33F813274E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3418E57-95FA-4611-8878-F2844F72AD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3418E57-95FA-4611-8878-F2844F72AD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3418E57-95FA-4611-8878-F2844F72AD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3418E57-95FA-4611-8878-F2844F72AD28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
