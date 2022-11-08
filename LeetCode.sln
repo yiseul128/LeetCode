@@ -199,6 +199,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "380. Insert Delete GetRando
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "328. Odd Even Linked List", "328. Odd Even Linked List\328. Odd Even Linked List.csproj", "{C3418E57-95FA-4611-8878-F2844F72AD28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "69. Sqrt(x)", "69. Sqrt(x)\69. Sqrt(x).csproj", "{1D5D95B2-CC21-4F69-A468-44289565C2EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -597,6 +599,10 @@ Global
 		{C3418E57-95FA-4611-8878-F2844F72AD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3418E57-95FA-4611-8878-F2844F72AD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3418E57-95FA-4611-8878-F2844F72AD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5D95B2-CC21-4F69-A468-44289565C2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5D95B2-CC21-4F69-A468-44289565C2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5D95B2-CC21-4F69-A468-44289565C2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5D95B2-CC21-4F69-A468-44289565C2EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
