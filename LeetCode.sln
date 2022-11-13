@@ -211,6 +211,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "350. Intersection of Two Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "326. Power of Three", "326. Power of Three\326. Power of Three.csproj", "{ADD3E72D-5A30-4FDE-92D8-D89F32AD3D6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "239. Sliding Window Maximum", "239. Sliding Window Maximum\239. Sliding Window Maximum.csproj", "{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -633,6 +635,10 @@ Global
 		{ADD3E72D-5A30-4FDE-92D8-D89F32AD3D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD3E72D-5A30-4FDE-92D8-D89F32AD3D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD3E72D-5A30-4FDE-92D8-D89F32AD3D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
