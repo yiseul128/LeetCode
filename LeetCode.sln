@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{1F648B93-99D6-4D70-A6E5-CC2E36EEC163}"
 EndProject
@@ -211,7 +211,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "350. Intersection of Two Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "326. Power of Three", "326. Power of Three\326. Power of Three.csproj", "{ADD3E72D-5A30-4FDE-92D8-D89F32AD3D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "239. Sliding Window Maximum", "239. Sliding Window Maximum\239. Sliding Window Maximum.csproj", "{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "239. Sliding Window Maximum", "239. Sliding Window Maximum\239. Sliding Window Maximum.csproj", "{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "108. Convert Sorted Array to Binary Search Tree", "108. Convert Sorted Array to Binary Search Tree\108. Convert Sorted Array to Binary Search Tree.csproj", "{17886953-C783-4EB5-941B-D7D38F4E35B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -639,6 +641,10 @@ Global
 		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E9BB2B0-44EB-4C7A-A52E-26DAFB73427D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17886953-C783-4EB5-941B-D7D38F4E35B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17886953-C783-4EB5-941B-D7D38F4E35B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17886953-C783-4EB5-941B-D7D38F4E35B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17886953-C783-4EB5-941B-D7D38F4E35B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
