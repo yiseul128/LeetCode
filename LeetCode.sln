@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "108. Convert Sorted Array t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103. Binary Tree Zigzag Level Order Traversal", "103. Binary Tree Zigzag Level Order Traversal\103. Binary Tree Zigzag Level Order Traversal.csproj", "{46F70B0A-685A-4D8E-9654-00E0183C7370}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62. Unique Paths", "62. Unique Paths\62. Unique Paths.csproj", "{849D6711-7D00-4D72-A3F1-AD45D0035671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -651,6 +653,10 @@ Global
 		{46F70B0A-685A-4D8E-9654-00E0183C7370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F70B0A-685A-4D8E-9654-00E0183C7370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F70B0A-685A-4D8E-9654-00E0183C7370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
