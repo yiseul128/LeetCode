@@ -219,6 +219,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103. Binary Tree Zigzag Lev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62. Unique Paths", "62. Unique Paths\62. Unique Paths.csproj", "{849D6711-7D00-4D72-A3F1-AD45D0035671}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94. Binary Tree Inorder Traversal", "94. Binary Tree Inorder Traversal\94. Binary Tree Inorder Traversal.csproj", "{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -657,6 +659,10 @@ Global
 		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{849D6711-7D00-4D72-A3F1-AD45D0035671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
