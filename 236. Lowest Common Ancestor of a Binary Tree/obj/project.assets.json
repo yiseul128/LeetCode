@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj",
-      "projectName": "153. Find Minimum in Rotated Sorted Array",
-      "projectPath": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj",
+      "projectUniqueName": "C:\\LeetCode\\236. Lowest Common Ancestor of a Binary Tree\\236. Lowest Common Ancestor of a Binary Tree.csproj",
+      "projectName": "236. Lowest Common Ancestor of a Binary Tree",
+      "projectPath": "C:\\LeetCode\\236. Lowest Common Ancestor of a Binary Tree\\236. Lowest Common Ancestor of a Binary Tree.csproj",
       "packagesPath": "C:\\Users\\Yiseul\\.nuget\\packages\\",
-      "outputPath": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\obj\\",
+      "outputPath": "C:\\LeetCode\\236. Lowest Common Ancestor of a Binary Tree\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yiseul\\AppData\\Roaming\\NuGet\\NuGet.Config",

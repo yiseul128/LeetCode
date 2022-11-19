@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32319.34
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{1F648B93-99D6-4D70-A6E5-CC2E36EEC163}"
 EndProject
@@ -220,6 +220,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62. Unique Paths", "62. Unique Paths\62. Unique Paths.csproj", "{849D6711-7D00-4D72-A3F1-AD45D0035671}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94. Binary Tree Inorder Traversal", "94. Binary Tree Inorder Traversal\94. Binary Tree Inorder Traversal.csproj", "{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "236. Lowest Common Ancestor of a Binary Tree", "236. Lowest Common Ancestor of a Binary Tree\236. Lowest Common Ancestor of a Binary Tree.csproj", "{9E8B09E3-2E21-4101-9025-9ED35943DAA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -663,6 +665,10 @@ Global
 		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
