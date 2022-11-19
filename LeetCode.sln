@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{1F648B93-99D6-4D70-A6E5-CC2E36EEC163}"
 EndProject
@@ -221,7 +221,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "62. Unique Paths", "62. Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94. Binary Tree Inorder Traversal", "94. Binary Tree Inorder Traversal\94. Binary Tree Inorder Traversal.csproj", "{6C32CDF4-907F-4D90-A8F8-EA39269C47BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "236. Lowest Common Ancestor of a Binary Tree", "236. Lowest Common Ancestor of a Binary Tree\236. Lowest Common Ancestor of a Binary Tree.csproj", "{9E8B09E3-2E21-4101-9025-9ED35943DAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "236. Lowest Common Ancestor of a Binary Tree", "236. Lowest Common Ancestor of a Binary Tree\236. Lowest Common Ancestor of a Binary Tree.csproj", "{9E8B09E3-2E21-4101-9025-9ED35943DAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "208. Implement Trie (Prefix Tree)", "208. Implement Trie (Prefix Tree)\208. Implement Trie (Prefix Tree).csproj", "{B9503A1B-C824-4079-9FC9-B78AA51B43CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -669,6 +671,10 @@ Global
 		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E8B09E3-2E21-4101-9025-9ED35943DAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9503A1B-C824-4079-9FC9-B78AA51B43CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9503A1B-C824-4079-9FC9-B78AA51B43CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9503A1B-C824-4079-9FC9-B78AA51B43CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9503A1B-C824-4079-9FC9-B78AA51B43CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Eluosgc/HXU16cPW3mrMdrGX7mbLAIgAeYWY9Qdkw3YdhUkDkHSHl35hGYtYfegkG08DAKhmhyQHtPWzYQ307g==",
+  "dgSpecHash": "wY/IADPf7BsUPO7rWaFs+LCdsTocdtXhjU9aVcQId++Derqfi+rjlQ50vkubQaQxOUbvUGocUG4xXfyxopHt4A==",
   "success": true,
   "projectFilePath": "C:\\LeetCode\\236. Lowest Common Ancestor of a Binary Tree\\236. Lowest Common Ancestor of a Binary Tree.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
+  ],
   "logs": []
 }
