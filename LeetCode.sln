@@ -235,6 +235,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. Generate Parentheses", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46. Permutations", "46. Permutations\46. Permutations.csproj", "{CC639BAD-EFD0-42B3-AEFB-D2AF7AF57A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50. Pow(x, n)", "50. Pow(x, n)\50. Pow(x, n).csproj", "{ABBC9BDF-C1E6-4B53-B5D7-7B8A8F0EDAD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -705,6 +707,10 @@ Global
 		{CC639BAD-EFD0-42B3-AEFB-D2AF7AF57A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC639BAD-EFD0-42B3-AEFB-D2AF7AF57A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC639BAD-EFD0-42B3-AEFB-D2AF7AF57A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBC9BDF-C1E6-4B53-B5D7-7B8A8F0EDAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBC9BDF-C1E6-4B53-B5D7-7B8A8F0EDAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBC9BDF-C1E6-4B53-B5D7-7B8A8F0EDAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBC9BDF-C1E6-4B53-B5D7-7B8A8F0EDAD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
