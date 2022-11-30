@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50. Pow(x, n)", "50. Pow(x,
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "150. Evaluate Reverse Polish Notation", "150. Evaluate Reverse Polish Notation\150. Evaluate Reverse Polish Notation.csproj", "{A160DEE4-C53A-4C9F-8C21-1DDF65FD0BC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Palindrome Number", "9. Palindrome Number\9. Palindrome Number.csproj", "{7868F32A-4F41-4EA0-ACAA-22F3E6838B16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +719,10 @@ Global
 		{A160DEE4-C53A-4C9F-8C21-1DDF65FD0BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A160DEE4-C53A-4C9F-8C21-1DDF65FD0BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A160DEE4-C53A-4C9F-8C21-1DDF65FD0BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7868F32A-4F41-4EA0-ACAA-22F3E6838B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7868F32A-4F41-4EA0-ACAA-22F3E6838B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7868F32A-4F41-4EA0-ACAA-22F3E6838B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7868F32A-4F41-4EA0-ACAA-22F3E6838B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
