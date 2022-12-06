@@ -12,6 +12,117 @@ namespace _208.Implement_Trie__Prefix_Tree_
         {
         }
     }
+
+    public class TreeNode
+    {
+        public char val;
+        public List<TreeNode> children;
+        public bool endingChar;
+        public TreeNode(char val = ' ')
+        {
+            this.val = val;
+            this.children = new List<TreeNode>();
+            this.endingChar = false;
+        }
+    }
+
+    public class Trie
+    {
+        TreeNode root;
+
+        public Trie()
+        {
+            root = new TreeNode();
+        }
+
+        public void Insert(string word)
+        {
+            InsertChar(word, 0, root);
+        }
+
+        public void InsertChar(string word, int idx, TreeNode parent)
+        {
+            if (idx == word.Length)
+            {
+                parent.endingChar = true;
+                return;
+            }
+
+            List<TreeNode> childrenOfP = parent.children;
+
+            foreach (TreeNode n in childrenOfP)
+            {
+                if (n.val == word[idx])
+                {
+                    InsertChar(word, idx + 1, n);
+                    return;
+                }
+            }
+
+            // not found in children of parent
+            TreeNode newNode = new TreeNode(word[idx]);
+            childrenOfP.Add(newNode);
+            InsertChar(word, idx + 1, newNode);
+        }
+
+        public bool Search(string word)
+        {
+            return RecurSearch(word, 0, root);
+        }
+
+        public bool RecurSearch(string word, int idx, TreeNode parent)
+        {
+            // base case for found
+            if (idx == word.Length)
+            {
+                if (parent.endingChar)
+                {
+                    return true;
+                }
+                return false;
+            }
+
+            foreach (TreeNode n in parent.children)
+            {
+                if (n.val == word[idx])
+                {
+                    // Console.WriteLine(n.val);
+                    return RecurSearch(word, idx + 1, n);
+                }
+            }
+
+            return false;
+        }
+
+        public bool StartsWith(string prefix)
+        {
+            return RecurStartsWith(prefix, 0, root);
+        }
+
+        public bool RecurStartsWith(string prefix, int idx, TreeNode parent)
+        {
+
+            // base case for found
+            if (idx == prefix.Length)
+            {
+                return true;
+            }
+
+            foreach (TreeNode n in parent.children)
+            {
+                if (n.val == prefix[idx])
+                {
+                    return RecurStartsWith(prefix, idx + 1, n);
+                }
+            }
+
+            return false;
+        }
+    }
+
+
+    /* 1 */
+    /*
     public class TreeNode
     {
         public string val;
@@ -124,6 +235,7 @@ namespace _208.Implement_Trie__Prefix_Tree_
             return false;
         }
     }
+    */
 
     /**
      * Your Trie object will be instantiated and called as such:
