@@ -255,6 +255,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "142. Linked List Cycle II",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "394. Decode String", "394. Decode String\394. Decode String.csproj", "{0A6DD9BA-788D-4629-B2B9-CF55C5F54292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. Search Insert Position", "35. Search Insert Position\35. Search Insert Position.csproj", "{6D923667-0965-4F67-894E-1E30983A2776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -765,6 +767,10 @@ Global
 		{0A6DD9BA-788D-4629-B2B9-CF55C5F54292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A6DD9BA-788D-4629-B2B9-CF55C5F54292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A6DD9BA-788D-4629-B2B9-CF55C5F54292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D923667-0965-4F67-894E-1E30983A2776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D923667-0965-4F67-894E-1E30983A2776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D923667-0965-4F67-894E-1E30983A2776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D923667-0965-4F67-894E-1E30983A2776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
