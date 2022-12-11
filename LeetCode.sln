@@ -257,6 +257,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "394. Decode String", "394. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. Search Insert Position", "35. Search Insert Position\35. Search Insert Position.csproj", "{6D923667-0965-4F67-894E-1E30983A2776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "199. Binary Tree Right Side View", "199. Binary Tree Right Side View\199. Binary Tree Right Side View.csproj", "{82B03570-C853-4708-ABB8-E3DC83C4E102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -771,6 +773,10 @@ Global
 		{6D923667-0965-4F67-894E-1E30983A2776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D923667-0965-4F67-894E-1E30983A2776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D923667-0965-4F67-894E-1E30983A2776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B03570-C853-4708-ABB8-E3DC83C4E102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B03570-C853-4708-ABB8-E3DC83C4E102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B03570-C853-4708-ABB8-E3DC83C4E102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B03570-C853-4708-ABB8-E3DC83C4E102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
