@@ -261,6 +261,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "199. Binary Tree Right Side
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "114. Flatten Binary Tree to Linked List", "114. Flatten Binary Tree to Linked List\114. Flatten Binary Tree to Linked List.csproj", "{D873EF97-35BA-4892-92E1-782296E8ADB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "74. Search a 2D Matrix", "74. Search a 2D Matrix\74. Search a 2D Matrix.csproj", "{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -783,6 +785,10 @@ Global
 		{D873EF97-35BA-4892-92E1-782296E8ADB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D873EF97-35BA-4892-92E1-782296E8ADB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D873EF97-35BA-4892-92E1-782296E8ADB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
