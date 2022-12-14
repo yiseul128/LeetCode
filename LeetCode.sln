@@ -263,6 +263,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "114. Flatten Binary Tree to
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "74. Search a 2D Matrix", "74. Search a 2D Matrix\74. Search a 2D Matrix.csproj", "{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "543. Diameter of Binary Tree", "543. Diameter of Binary Tree\543. Diameter of Binary Tree.csproj", "{CEE6BEB9-1ECE-49C4-A874-0A9E6ECB2BC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -789,6 +791,10 @@ Global
 		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB9EA212-4724-4D30-BE6E-FB71D61F9D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE6BEB9-1ECE-49C4-A874-0A9E6ECB2BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE6BEB9-1ECE-49C4-A874-0A9E6ECB2BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE6BEB9-1ECE-49C4-A874-0A9E6ECB2BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE6BEB9-1ECE-49C4-A874-0A9E6ECB2BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
