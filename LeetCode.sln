@@ -269,6 +269,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31. Next Permutation", "31.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "324. Wiggle Sort II", "324. Wiggle Sort II\324. Wiggle Sort II.csproj", "{5795F76A-6335-4B1D-8CF4-17496BB43F2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "438. Find All Anagrams in a String", "438. Find All Anagrams in a String\438. Find All Anagrams in a String.csproj", "{7C434CD8-C481-428B-9088-F1FC65080D97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -807,6 +809,10 @@ Global
 		{5795F76A-6335-4B1D-8CF4-17496BB43F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5795F76A-6335-4B1D-8CF4-17496BB43F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5795F76A-6335-4B1D-8CF4-17496BB43F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C434CD8-C481-428B-9088-F1FC65080D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C434CD8-C481-428B-9088-F1FC65080D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C434CD8-C481-428B-9088-F1FC65080D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C434CD8-C481-428B-9088-F1FC65080D97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
