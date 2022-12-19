@@ -271,6 +271,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "324. Wiggle Sort II", "324.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "438. Find All Anagrams in a String", "438. Find All Anagrams in a String\438. Find All Anagrams in a String.csproj", "{7C434CD8-C481-428B-9088-F1FC65080D97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "341. Flatten Nested List Iterator", "341. Flatten Nested List Iterator\341. Flatten Nested List Iterator.csproj", "{48DAB25E-944B-4D89-B2A8-C5BABB24D75D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -813,6 +815,10 @@ Global
 		{7C434CD8-C481-428B-9088-F1FC65080D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C434CD8-C481-428B-9088-F1FC65080D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C434CD8-C481-428B-9088-F1FC65080D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DAB25E-944B-4D89-B2A8-C5BABB24D75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DAB25E-944B-4D89-B2A8-C5BABB24D75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DAB25E-944B-4D89-B2A8-C5BABB24D75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DAB25E-944B-4D89-B2A8-C5BABB24D75D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
