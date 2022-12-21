@@ -275,6 +275,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "341. Flatten Nested List It
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "295. Find Median from Data Stream", "295. Find Median from Data Stream\295. Find Median from Data Stream.csproj", "{9D4B6229-5958-4EC4-AAE3-C389283A78EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "64. Minimum Path Sum", "64. Minimum Path Sum\64. Minimum Path Sum.csproj", "{616E8D6F-329D-476F-B2BE-2A3B3AEF779D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -825,6 +827,10 @@ Global
 		{9D4B6229-5958-4EC4-AAE3-C389283A78EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D4B6229-5958-4EC4-AAE3-C389283A78EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D4B6229-5958-4EC4-AAE3-C389283A78EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616E8D6F-329D-476F-B2BE-2A3B3AEF779D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616E8D6F-329D-476F-B2BE-2A3B3AEF779D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616E8D6F-329D-476F-B2BE-2A3B3AEF779D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616E8D6F-329D-476F-B2BE-2A3B3AEF779D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
