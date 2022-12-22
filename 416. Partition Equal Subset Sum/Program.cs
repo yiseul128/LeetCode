@@ -30,6 +30,7 @@ namespace _416.Partition_Equal_Subset_Sum
             total /= 2;
             bool[] sums = new bool[total + 1];
             sums[0] = true;
+
             foreach (int n in nums)
             {
                 for (int i = total; i >= n; i--)

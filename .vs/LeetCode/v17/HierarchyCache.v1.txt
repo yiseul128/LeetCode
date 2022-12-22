@@ -1,4 +1,4 @@
-﻿++Solution 'LeetCode' ‎(124 of 124 projects)
+﻿++Solution 'LeetCode' ‎(138 of 138 projects)
 i:{00000000-0000-0000-0000-000000000000}:LeetCode.sln
 ++20. Valid Parentheses
 i:{00000000-0000-0000-0000-000000000000}:20. Valid Parentheses
@@ -123,6 +123,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:c:\leetcode\138. copy list with random 
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:c:\leetcode\24. swap nodes in pairs\properties\
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:c:\leetcode\25. reverse nodes in k-group\properties\
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:c:\leetcode\994. rotting oranges\properties\
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:c:\leetcode\142. linked list cycle ii\properties\
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:c:\leetcode\394. decode string\properties\
+i:{6d923667-0965-4f67-894e-1e30983a2776}:c:\leetcode\35. search insert position\properties\
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:c:\leetcode\199. binary tree right side view\properties\
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:c:\leetcode\114. flatten binary tree to linked list\properties\
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:c:\leetcode\74. search a 2d matrix\properties\
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:c:\leetcode\543. diameter of binary tree\properties\
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:c:\leetcode\31. next permutation\properties\
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:c:\leetcode\324. wiggle sort ii\properties\
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:c:\leetcode\438. find all anagrams in a string\properties\
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list iterator\properties\
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\properties\
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\properties\
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\properties\
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\properties\
 ++References
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -245,6 +259,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++App.config
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:c:\leetcode\20. valid parentheses\app.config
@@ -367,6 +395,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:c:\leetcode\138. copy list with random 
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:c:\leetcode\24. swap nodes in pairs\app.config
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:c:\leetcode\25. reverse nodes in k-group\app.config
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:c:\leetcode\994. rotting oranges\app.config
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:c:\leetcode\142. linked list cycle ii\app.config
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:c:\leetcode\394. decode string\app.config
+i:{6d923667-0965-4f67-894e-1e30983a2776}:c:\leetcode\35. search insert position\app.config
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:c:\leetcode\199. binary tree right side view\app.config
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:c:\leetcode\114. flatten binary tree to linked list\app.config
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:c:\leetcode\74. search a 2d matrix\app.config
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:c:\leetcode\543. diameter of binary tree\app.config
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:c:\leetcode\31. next permutation\app.config
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:c:\leetcode\324. wiggle sort ii\app.config
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:c:\leetcode\438. find all anagrams in a string\app.config
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list iterator\app.config
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\app.config
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\app.config
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\app.config
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\app.config
 ++Program.cs
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:c:\leetcode\20. valid parentheses\program.cs
@@ -489,6 +531,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:c:\leetcode\138. copy list with random 
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:c:\leetcode\24. swap nodes in pairs\program.cs
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:c:\leetcode\25. reverse nodes in k-group\program.cs
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:c:\leetcode\994. rotting oranges\program.cs
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:c:\leetcode\142. linked list cycle ii\program.cs
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:c:\leetcode\394. decode string\program.cs
+i:{6d923667-0965-4f67-894e-1e30983a2776}:c:\leetcode\35. search insert position\program.cs
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:c:\leetcode\199. binary tree right side view\program.cs
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:c:\leetcode\114. flatten binary tree to linked list\program.cs
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:c:\leetcode\74. search a 2d matrix\program.cs
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:c:\leetcode\543. diameter of binary tree\program.cs
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:c:\leetcode\31. next permutation\program.cs
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:c:\leetcode\324. wiggle sort ii\program.cs
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:c:\leetcode\438. find all anagrams in a string\program.cs
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list iterator\program.cs
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\program.cs
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\program.cs
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\program.cs
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\program.cs
 i:{051148ea-e91c-410b-8dc1-15147f66da61}:c:\leetcode\153. find minimum in rotated sorted array\program.cs
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:c:\leetcode\239. sliding window maximum\program.cs
@@ -614,6 +670,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:c:\leetcode\138. copy list with random 
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:c:\leetcode\24. swap nodes in pairs\properties\assemblyinfo.cs
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:c:\leetcode\25. reverse nodes in k-group\properties\assemblyinfo.cs
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:c:\leetcode\994. rotting oranges\properties\assemblyinfo.cs
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:c:\leetcode\142. linked list cycle ii\properties\assemblyinfo.cs
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:c:\leetcode\394. decode string\properties\assemblyinfo.cs
+i:{6d923667-0965-4f67-894e-1e30983a2776}:c:\leetcode\35. search insert position\properties\assemblyinfo.cs
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:c:\leetcode\199. binary tree right side view\properties\assemblyinfo.cs
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:c:\leetcode\114. flatten binary tree to linked list\properties\assemblyinfo.cs
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:c:\leetcode\74. search a 2d matrix\properties\assemblyinfo.cs
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:c:\leetcode\543. diameter of binary tree\properties\assemblyinfo.cs
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:c:\leetcode\31. next permutation\properties\assemblyinfo.cs
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:c:\leetcode\324. wiggle sort ii\properties\assemblyinfo.cs
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:c:\leetcode\438. find all anagrams in a string\properties\assemblyinfo.cs
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list iterator\properties\assemblyinfo.cs
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\properties\assemblyinfo.cs
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\properties\assemblyinfo.cs
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\properties\assemblyinfo.cs
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\properties\assemblyinfo.cs
 ++Microsoft.CSharp
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -736,6 +806,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -858,6 +942,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Core
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -980,6 +1078,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Data
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1102,6 +1214,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Data.DataSetExtensions
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1224,6 +1350,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Net.Http
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1346,6 +1486,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Xml
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1468,6 +1622,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Xml.Linq
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1590,6 +1758,20 @@ i:{b1bd9da0-7a9e-4106-acee-acd3a64ede7d}:
 i:{16c63c9a-ed51-4c40-bc04-9184b840a0ab}:
 i:{73c82bff-3b0d-49e2-bce8-1c2985c68101}:
 i:{ce9c67db-30ae-43d5-b02f-3a62e5d71f7e}:
+i:{62a6e1c7-8e78-4b5b-b0b1-6be0aef3ceeb}:
+i:{0a6dd9ba-788d-4629-b2b9-cf55c5f54292}:
+i:{6d923667-0965-4f67-894e-1e30983a2776}:
+i:{82b03570-c853-4708-abb8-e3dc83c4e102}:
+i:{d873ef97-35ba-4892-92e1-782296e8adb6}:
+i:{eb9ea212-4724-4d30-be6e-fb71d61f9d56}:
+i:{cee6beb9-1ece-49c4-a874-0a9e6ecb2bc9}:
+i:{9186bdf9-34ca-43aa-b245-0947f9e5f525}:
+i:{5795f76a-6335-4b1d-8cf4-17496bb43f2c}:
+i:{7c434cd8-c481-428b-9088-f1fc65080d97}:
+i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
+i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
+i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
+i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++55. Jump Game
 i:{00000000-0000-0000-0000-000000000000}:55. Jump Game
@@ -1829,14 +2011,42 @@ i:{00000000-0000-0000-0000-000000000000}:24. Swap Nodes in Pairs
 i:{00000000-0000-0000-0000-000000000000}:25. Reverse Nodes in k-Group
 ++994. Rotting Oranges
 i:{00000000-0000-0000-0000-000000000000}:994. Rotting Oranges
+++142. Linked List Cycle II
+i:{00000000-0000-0000-0000-000000000000}:142. Linked List Cycle II
+++394. Decode String
+i:{00000000-0000-0000-0000-000000000000}:394. Decode String
+++35. Search Insert Position
+i:{00000000-0000-0000-0000-000000000000}:35. Search Insert Position
+++199. Binary Tree Right Side View
+i:{00000000-0000-0000-0000-000000000000}:199. Binary Tree Right Side View
+++114. Flatten Binary Tree to Linked List
+i:{00000000-0000-0000-0000-000000000000}:114. Flatten Binary Tree to Linked List
+++74. Search a 2D Matrix
+i:{00000000-0000-0000-0000-000000000000}:74. Search a 2D Matrix
+++543. Diameter of Binary Tree
+i:{00000000-0000-0000-0000-000000000000}:543. Diameter of Binary Tree
+++31. Next Permutation
+i:{00000000-0000-0000-0000-000000000000}:31. Next Permutation
+++324. Wiggle Sort II
+i:{00000000-0000-0000-0000-000000000000}:324. Wiggle Sort II
+++438. Find All Anagrams in a String
+i:{00000000-0000-0000-0000-000000000000}:438. Find All Anagrams in a String
+++341. Flatten Nested List Iterator
+i:{00000000-0000-0000-0000-000000000000}:341. Flatten Nested List Iterator
+++295. Find Median from Data Stream
+i:{00000000-0000-0000-0000-000000000000}:295. Find Median from Data Stream
+++64. Minimum Path Sum
+i:{00000000-0000-0000-0000-000000000000}:64. Minimum Path Sum
+++416. Partition Equal Subset Sum
+i:{00000000-0000-0000-0000-000000000000}:416. Partition Equal Subset Sum
 ++1. Two Sum
 i:{00000000-0000-0000-0000-000000000000}:1. Two Sum
 ++153. Find Minimum in Rotated Sorted Array
 i:{00000000-0000-0000-0000-000000000000}:153. Find Minimum in Rotated Sorted Array
 ++Dependencies
-i:{051148ea-e91c-410b-8dc1-15147f66da61}:>206
-i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:>208
-i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:>207
+i:{051148ea-e91c-410b-8dc1-15147f66da61}:>208
+i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:>207
+i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:>206
 ++Frameworks
 i:{051148ea-e91c-410b-8dc1-15147f66da61}:frameworks
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:frameworks
