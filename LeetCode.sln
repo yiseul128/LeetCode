@@ -279,6 +279,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "64. Minimum Path Sum", "64.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "416. Partition Equal Subset Sum", "416. Partition Equal Subset Sum\416. Partition Equal Subset Sum.csproj", "{504B1A0A-7EAF-46B1-906C-653FDE2C5A23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "51. N-Queens", "51. N-Queens\51. N-Queens.csproj", "{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -837,6 +839,10 @@ Global
 		{504B1A0A-7EAF-46B1-906C-653FDE2C5A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{504B1A0A-7EAF-46B1-906C-653FDE2C5A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{504B1A0A-7EAF-46B1-906C-653FDE2C5A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
