@@ -281,6 +281,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "416. Partition Equal Subset
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "51. N-Queens", "51. N-Queens\51. N-Queens.csproj", "{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "560. Subarray Sum Equals K", "560. Subarray Sum Equals K\560. Subarray Sum Equals K.csproj", "{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -843,6 +845,10 @@ Global
 		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21E5FB6B-6356-4D6D-AE08-4FA897F2BB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
