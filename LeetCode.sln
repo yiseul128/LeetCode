@@ -283,6 +283,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "51. N-Queens", "51. N-Queen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "560. Subarray Sum Equals K", "560. Subarray Sum Equals K\560. Subarray Sum Equals K.csproj", "{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "797. All Paths From Source to Target", "797. All Paths From Source to Target\797. All Paths From Source to Target.csproj", "{38F4CFEF-7EA6-43DC-98E4-09D7F8EBB521}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -849,6 +851,10 @@ Global
 		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550FD7F3-09B1-4F90-97F1-28BB80E9E8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F4CFEF-7EA6-43DC-98E4-09D7F8EBB521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F4CFEF-7EA6-43DC-98E4-09D7F8EBB521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F4CFEF-7EA6-43DC-98E4-09D7F8EBB521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F4CFEF-7EA6-43DC-98E4-09D7F8EBB521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
