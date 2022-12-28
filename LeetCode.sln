@@ -287,6 +287,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "797. All Paths From Source 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "210. Course Schedule II", "210. Course Schedule II\210. Course Schedule II.csproj", "{91CBDF5A-B4CB-4DFC-B9E1-BDBFBB591BE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "300. Longest Increasing Subsequence", "300. Longest Increasing Subsequence\300. Longest Increasing Subsequence.csproj", "{3E04DF1B-881C-45AB-B77B-EC1CF7E5B2C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -861,6 +863,10 @@ Global
 		{91CBDF5A-B4CB-4DFC-B9E1-BDBFBB591BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91CBDF5A-B4CB-4DFC-B9E1-BDBFBB591BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91CBDF5A-B4CB-4DFC-B9E1-BDBFBB591BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E04DF1B-881C-45AB-B77B-EC1CF7E5B2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E04DF1B-881C-45AB-B77B-EC1CF7E5B2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E04DF1B-881C-45AB-B77B-EC1CF7E5B2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E04DF1B-881C-45AB-B77B-EC1CF7E5B2C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
