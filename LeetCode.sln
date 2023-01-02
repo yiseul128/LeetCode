@@ -295,6 +295,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39. Combination Sum", "39. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45. Jump Game II", "45. Jump Game II\45. Jump Game II.csproj", "{8CDEA72E-4579-44E0-9BF9-C24348AC4087}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "334. Increasing Triplet Subsequence", "334. Increasing Triplet Subsequence\334. Increasing Triplet Subsequence.csproj", "{318E6DE9-5959-47A6-AF35-6743B5E0628D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -885,6 +887,10 @@ Global
 		{8CDEA72E-4579-44E0-9BF9-C24348AC4087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CDEA72E-4579-44E0-9BF9-C24348AC4087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CDEA72E-4579-44E0-9BF9-C24348AC4087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
