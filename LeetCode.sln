@@ -297,6 +297,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45. Jump Game II", "45. Jum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "334. Increasing Triplet Subsequence", "334. Increasing Triplet Subsequence\334. Increasing Triplet Subsequence.csproj", "{318E6DE9-5959-47A6-AF35-6743B5E0628D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111. Minimum Depth of Binary Tree", "111. Minimum Depth of Binary Tree\111. Minimum Depth of Binary Tree.csproj", "{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -891,6 +893,10 @@ Global
 		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318E6DE9-5959-47A6-AF35-6743B5E0628D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
