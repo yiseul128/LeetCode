@@ -299,6 +299,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "334. Increasing Triplet Sub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111. Minimum Depth of Binary Tree", "111. Minimum Depth of Binary Tree\111. Minimum Depth of Binary Tree.csproj", "{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "518. Coin Change II", "518. Coin Change II\518. Coin Change II.csproj", "{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -897,6 +899,10 @@ Global
 		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD590AC-B87E-4DF3-8A32-0FAC5C3381DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
