@@ -301,6 +301,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111. Minimum Depth of Binar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "518. Coin Change II", "518. Coin Change II\518. Coin Change II.csproj", "{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1143. Longest Common Subsequence", "1143. Longest Common Subsequence\1143. Longest Common Subsequence.csproj", "{BE2D0B7A-E73C-4318-9040-3AB816F0558F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -903,6 +905,10 @@ Global
 		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC1EEF4-D4BF-4C0C-9E85-FEBE108FAB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2D0B7A-E73C-4318-9040-3AB816F0558F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2D0B7A-E73C-4318-9040-3AB816F0558F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2D0B7A-E73C-4318-9040-3AB816F0558F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2D0B7A-E73C-4318-9040-3AB816F0558F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
