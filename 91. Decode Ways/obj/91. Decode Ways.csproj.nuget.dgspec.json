@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj": {}
+    "C:\\LeetCode\\91. Decode Ways\\91. Decode Ways.csproj": {}
   },
   "projects": {
-    "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj": {
+    "C:\\LeetCode\\91. Decode Ways\\91. Decode Ways.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj",
-        "projectName": "153. Find Minimum in Rotated Sorted Array",
-        "projectPath": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\153. Find Minimum in Rotated Sorted Array.csproj",
+        "projectUniqueName": "C:\\LeetCode\\91. Decode Ways\\91. Decode Ways.csproj",
+        "projectName": "91. Decode Ways",
+        "projectPath": "C:\\LeetCode\\91. Decode Ways\\91. Decode Ways.csproj",
         "packagesPath": "C:\\Users\\Yiseul\\.nuget\\packages\\",
-        "outputPath": "C:\\LeetCode\\153. Find Minimum in Rotated Sorted Array\\obj\\",
+        "outputPath": "C:\\LeetCode\\91. Decode Ways\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yiseul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://pkgs.dev.azure.com/COMP367/ClassLibraryProjects/_packaging/class-library-projects-packages/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -38,8 +38,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -50,12 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.26, 3.1.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

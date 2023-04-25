@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wY/IADPf7BsUPO7rWaFs+LCdsTocdtXhjU9aVcQId++Derqfi+rjlQ50vkubQaQxOUbvUGocUG4xXfyxopHt4A==",
+  "dgSpecHash": "uFf129u/+dzSIKm3OuQh/Y5jT5TrOwR+ieHhgvvI4g7RAopw6hPVRoAt537mMNWpAWIZJ75WNZzUhS1wFhsmZQ==",
   "success": true,
   "projectFilePath": "C:\\LeetCode\\236. Lowest Common Ancestor of a Binary Tree\\236. Lowest Common Ancestor of a Binary Tree.csproj",
   "expectedPackageFiles": [
