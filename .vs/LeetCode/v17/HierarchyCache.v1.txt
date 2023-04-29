@@ -1,4 +1,4 @@
-﻿++Solution 'LeetCode' ‎(138 of 138 projects)
+﻿++Solution 'LeetCode' ‎(157 of 157 projects)
 i:{00000000-0000-0000-0000-000000000000}:LeetCode.sln
 ++20. Valid Parentheses
 i:{00000000-0000-0000-0000-000000000000}:20. Valid Parentheses
@@ -137,6 +137,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list it
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\properties\
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\properties\
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\properties\
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:c:\leetcode\51. n-queens\properties\
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:c:\leetcode\560. subarray sum equals k\properties\
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:c:\leetcode\797. all paths from source to target\properties\
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:c:\leetcode\210. course schedule ii\properties\
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:c:\leetcode\300. longest increasing subsequence\properties\
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:c:\leetcode\198. house robber\properties\
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:c:\leetcode\39. combination sum\properties\
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:c:\leetcode\45. jump game ii\properties\
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:c:\leetcode\334. increasing triplet subsequence\properties\
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:c:\leetcode\111. minimum depth of binary tree\properties\
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:c:\leetcode\518. coin change ii\properties\
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:c:\leetcode\1143. longest common subsequence\properties\
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:c:\leetcode\315. count of smaller numbers after self\properties\
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:c:\leetcode\437. path sum iii\properties\
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:c:\leetcode\124. binary tree maximum path sum\properties\
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:c:\leetcode\16. 3sum closest\properties\
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:c:\leetcode\1189. maximum number of balloons\properties\
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\properties\
 ++References
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -273,6 +290,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++App.config
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:c:\leetcode\20. valid parentheses\app.config
@@ -409,6 +443,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list it
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\app.config
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\app.config
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\app.config
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:c:\leetcode\51. n-queens\app.config
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:c:\leetcode\560. subarray sum equals k\app.config
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:c:\leetcode\797. all paths from source to target\app.config
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:c:\leetcode\210. course schedule ii\app.config
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:c:\leetcode\300. longest increasing subsequence\app.config
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:c:\leetcode\198. house robber\app.config
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:c:\leetcode\39. combination sum\app.config
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:c:\leetcode\45. jump game ii\app.config
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:c:\leetcode\334. increasing triplet subsequence\app.config
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:c:\leetcode\111. minimum depth of binary tree\app.config
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:c:\leetcode\518. coin change ii\app.config
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:c:\leetcode\1143. longest common subsequence\app.config
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:c:\leetcode\315. count of smaller numbers after self\app.config
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:c:\leetcode\437. path sum iii\app.config
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:c:\leetcode\124. binary tree maximum path sum\app.config
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:c:\leetcode\16. 3sum closest\app.config
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:c:\leetcode\1189. maximum number of balloons\app.config
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\app.config
 ++Program.cs
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:c:\leetcode\20. valid parentheses\program.cs
@@ -545,10 +596,29 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list it
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\program.cs
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\program.cs
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\program.cs
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:c:\leetcode\51. n-queens\program.cs
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:c:\leetcode\560. subarray sum equals k\program.cs
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:c:\leetcode\797. all paths from source to target\program.cs
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:c:\leetcode\210. course schedule ii\program.cs
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:c:\leetcode\300. longest increasing subsequence\program.cs
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:c:\leetcode\198. house robber\program.cs
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:c:\leetcode\39. combination sum\program.cs
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:c:\leetcode\45. jump game ii\program.cs
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:c:\leetcode\334. increasing triplet subsequence\program.cs
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:c:\leetcode\111. minimum depth of binary tree\program.cs
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:c:\leetcode\518. coin change ii\program.cs
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:c:\leetcode\1143. longest common subsequence\program.cs
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:c:\leetcode\315. count of smaller numbers after self\program.cs
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:c:\leetcode\437. path sum iii\program.cs
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:c:\leetcode\124. binary tree maximum path sum\program.cs
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:c:\leetcode\16. 3sum closest\program.cs
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:c:\leetcode\1189. maximum number of balloons\program.cs
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\program.cs
 i:{051148ea-e91c-410b-8dc1-15147f66da61}:c:\leetcode\153. find minimum in rotated sorted array\program.cs
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:c:\leetcode\239. sliding window maximum\program.cs
 i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:c:\leetcode\236. lowest common ancestor of a binary tree\program.cs
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:c:\leetcode\91. decode ways\program.cs
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:c:\leetcode\567. permutation in string\program.cs
 ++AssemblyInfo.cs
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:c:\leetcode\20. valid parentheses\properties\assemblyinfo.cs
 i:{d26474a4-5aa9-4bd1-82a2-1dca6d1e4214}:c:\leetcode\55. jump game\properties\assemblyinfo.cs
@@ -684,6 +754,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:c:\leetcode\341. flatten nested list it
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:c:\leetcode\295. find median from data stream\properties\assemblyinfo.cs
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:c:\leetcode\64. minimum path sum\properties\assemblyinfo.cs
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:c:\leetcode\416. partition equal subset sum\properties\assemblyinfo.cs
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:c:\leetcode\51. n-queens\properties\assemblyinfo.cs
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:c:\leetcode\560. subarray sum equals k\properties\assemblyinfo.cs
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:c:\leetcode\797. all paths from source to target\properties\assemblyinfo.cs
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:c:\leetcode\210. course schedule ii\properties\assemblyinfo.cs
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:c:\leetcode\300. longest increasing subsequence\properties\assemblyinfo.cs
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:c:\leetcode\198. house robber\properties\assemblyinfo.cs
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:c:\leetcode\39. combination sum\properties\assemblyinfo.cs
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:c:\leetcode\45. jump game ii\properties\assemblyinfo.cs
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:c:\leetcode\334. increasing triplet subsequence\properties\assemblyinfo.cs
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:c:\leetcode\111. minimum depth of binary tree\properties\assemblyinfo.cs
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:c:\leetcode\518. coin change ii\properties\assemblyinfo.cs
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:c:\leetcode\1143. longest common subsequence\properties\assemblyinfo.cs
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:c:\leetcode\315. count of smaller numbers after self\properties\assemblyinfo.cs
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:c:\leetcode\437. path sum iii\properties\assemblyinfo.cs
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:c:\leetcode\124. binary tree maximum path sum\properties\assemblyinfo.cs
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:c:\leetcode\16. 3sum closest\properties\assemblyinfo.cs
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:c:\leetcode\1189. maximum number of balloons\properties\assemblyinfo.cs
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:c:\leetcode\1. two sum\properties\assemblyinfo.cs
 ++Microsoft.CSharp
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -820,6 +907,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -956,6 +1060,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Core
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1092,6 +1213,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Data
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1228,6 +1366,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Data.DataSetExtensions
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1364,6 +1519,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Net.Http
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1500,6 +1672,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Xml
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1636,6 +1825,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++System.Xml.Linq
 i:{1f648b93-99d6-4d70-a6e5-cc2e36eec163}:
@@ -1772,6 +1978,23 @@ i:{48dab25e-944b-4d89-b2a8-c5babb24d75d}:
 i:{9d4b6229-5958-4ec4-aae3-c389283a78ea}:
 i:{616e8d6f-329d-476f-b2be-2a3b3aef779d}:
 i:{504b1a0a-7eaf-46b1-906c-653fde2c5a23}:
+i:{21e5fb6b-6356-4d6d-ae08-4fa897f2bb6a}:
+i:{550fd7f3-09b1-4f90-97f1-28bb80e9e8f6}:
+i:{38f4cfef-7ea6-43dc-98e4-09d7f8ebb521}:
+i:{91cbdf5a-b4cb-4dfc-b9e1-bdbfbb591be5}:
+i:{3e04df1b-881c-45ab-b77b-ec1cf7e5b2c4}:
+i:{d4032b1c-7963-49bc-8020-158c6168d38f}:
+i:{73bb3af4-f816-4449-b828-520c972f5b1c}:
+i:{8cdea72e-4579-44e0-9bf9-c24348ac4087}:
+i:{318e6de9-5959-47a6-af35-6743b5e0628d}:
+i:{7bd590ac-b87e-4df3-8a32-0fac5c3381db}:
+i:{3cc1eef4-d4bf-4c0c-9e85-febe108fab78}:
+i:{be2d0b7a-e73c-4318-9040-3ab816f0558f}:
+i:{53fe4cf1-e0e8-4cae-8124-3d89de481bc2}:
+i:{346fe717-4ac1-4963-acba-17980e4e70c8}:
+i:{611861b5-7cf3-49d1-bbe1-20d9cb5dedd8}:
+i:{5f99be49-744d-4cd0-9bc4-1c4a90c1b90f}:
+i:{9da249b3-2140-4e79-9c06-4ca0d3c187f9}:
 i:{2255793c-490a-4e8a-8470-bb611baf5bcc}:
 ++55. Jump Game
 i:{00000000-0000-0000-0000-000000000000}:55. Jump Game
@@ -2039,31 +2262,83 @@ i:{00000000-0000-0000-0000-000000000000}:295. Find Median from Data Stream
 i:{00000000-0000-0000-0000-000000000000}:64. Minimum Path Sum
 ++416. Partition Equal Subset Sum
 i:{00000000-0000-0000-0000-000000000000}:416. Partition Equal Subset Sum
+++51. N-Queens
+i:{00000000-0000-0000-0000-000000000000}:51. N-Queens
+++560. Subarray Sum Equals K
+i:{00000000-0000-0000-0000-000000000000}:560. Subarray Sum Equals K
+++797. All Paths From Source to Target
+i:{00000000-0000-0000-0000-000000000000}:797. All Paths From Source to Target
+++210. Course Schedule II
+i:{00000000-0000-0000-0000-000000000000}:210. Course Schedule II
+++300. Longest Increasing Subsequence
+i:{00000000-0000-0000-0000-000000000000}:300. Longest Increasing Subsequence
+++198. House Robber
+i:{00000000-0000-0000-0000-000000000000}:198. House Robber
+++39. Combination Sum
+i:{00000000-0000-0000-0000-000000000000}:39. Combination Sum
+++45. Jump Game II
+i:{00000000-0000-0000-0000-000000000000}:45. Jump Game II
+++334. Increasing Triplet Subsequence
+i:{00000000-0000-0000-0000-000000000000}:334. Increasing Triplet Subsequence
+++111. Minimum Depth of Binary Tree
+i:{00000000-0000-0000-0000-000000000000}:111. Minimum Depth of Binary Tree
+++518. Coin Change II
+i:{00000000-0000-0000-0000-000000000000}:518. Coin Change II
+++1143. Longest Common Subsequence
+i:{00000000-0000-0000-0000-000000000000}:1143. Longest Common Subsequence
+++315. Count of Smaller Numbers After Self
+i:{00000000-0000-0000-0000-000000000000}:315. Count of Smaller Numbers After Self
+++437. Path Sum III
+i:{00000000-0000-0000-0000-000000000000}:437. Path Sum III
+++124. Binary Tree Maximum Path Sum
+i:{00000000-0000-0000-0000-000000000000}:124. Binary Tree Maximum Path Sum
+++16. 3Sum Closest
+i:{00000000-0000-0000-0000-000000000000}:16. 3Sum Closest
+++1189. Maximum Number of Balloons
+i:{00000000-0000-0000-0000-000000000000}:1189. Maximum Number of Balloons
 ++1. Two Sum
 i:{00000000-0000-0000-0000-000000000000}:1. Two Sum
 ++153. Find Minimum in Rotated Sorted Array
 i:{00000000-0000-0000-0000-000000000000}:153. Find Minimum in Rotated Sorted Array
 ++Dependencies
-i:{051148ea-e91c-410b-8dc1-15147f66da61}:>208
-i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:>207
-i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:>206
+i:{051148ea-e91c-410b-8dc1-15147f66da61}:>303
+i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:>306
+i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:>304
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:>302
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:>305
 ++Frameworks
 i:{051148ea-e91c-410b-8dc1-15147f66da61}:frameworks
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:frameworks
 i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:frameworks
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:frameworks
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:frameworks
 ++Microsoft.NETCore.App
 i:{051148ea-e91c-410b-8dc1-15147f66da61}:c:\leetcode\153. find minimum in rotated sorted array\microsoft.netcore.app
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:c:\leetcode\239. sliding window maximum\microsoft.netcore.app
 i:{9e8b09e3-2e21-4101-9025-9ed35943daa6}:c:\leetcode\236. lowest common ancestor of a binary tree\microsoft.netcore.app
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:c:\leetcode\91. decode ways\microsoft.netcore.app
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:c:\leetcode\567. permutation in string\microsoft.netcore.app
 ++239. Sliding Window Maximum
 i:{00000000-0000-0000-0000-000000000000}:239. Sliding Window Maximum
 ++Analyzers
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:analyzers
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:analyzers
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:analyzers
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:c:\program files\dotnet\sdk\6.0.301\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:c:\program files\dotnet\sdk\6.0.301\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:c:\program files\dotnet\sdk\6.0.301\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:c:\program files\dotnet\sdk\6.0.301\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:c:\program files\dotnet\sdk\6.0.301\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:c:\program files\dotnet\sdk\6.0.301\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++System.Text.Json.SourceGeneration
 i:{5e9bb2b0-44eb-4c7a-a52e-26dafb73427d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.6\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{276f252d-a0c0-40ed-81f3-eae10589ac8f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.6\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{34e8b132-e418-4cf1-b16c-753241b27204}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.6\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++236. Lowest Common Ancestor of a Binary Tree
 i:{00000000-0000-0000-0000-000000000000}:236. Lowest Common Ancestor of a Binary Tree
+++91. Decode Ways
+i:{00000000-0000-0000-0000-000000000000}:91. Decode Ways
+++567. Permutation in String
+i:{00000000-0000-0000-0000-000000000000}:567. Permutation in String

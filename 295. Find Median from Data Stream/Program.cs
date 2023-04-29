@@ -23,24 +23,17 @@ namespace _295.Find_Median_from_Data_Stream
 
         public void AddNum(int num)
         {
-            int count = 0;
-            foreach (int n in nums)
-            {
-                if (n >= num)
-                {
-                    break;
-                }
-                count++;
-            }
+            int count = nums.BinarySearch(num);
 
-            // Console.WriteLine("num: " + num +", count: " + count);
+            count = count < 0 ? ~count : count;
+
             nums.Insert(count, num);
         }
 
         public double FindMedian()
         {
             int middle = nums.Count / 2;
-            // Console.WriteLine("middle: " + middle);
+
             if (nums.Count % 2 == 0)
             {
                 return ((double)nums.ElementAt(middle) + nums.ElementAt(middle - 1)) / 2;
