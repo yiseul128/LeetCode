@@ -32,47 +32,17 @@ namespace _7.Reverse_Integer
                     x = -1 * x;
                 }
 
-                int reversed = 0;
-
+                string reversedStr = "";
                 int n = x.ToString().Length;
-
-                for (int i = n - 1; i > 0; i--)
+                int powered10 = (int)Math.Pow(10, n - 1);
+                for (int i = 0; i < n; i++)
                 {
-                    reversed += Convert.ToInt32(Math.Pow(10, n - i - 1)) * (x / Convert.ToInt32(Math.Pow(10, i)));
-                    //Console.WriteLine("rev: " + reversed);
-                    x = x % Convert.ToInt32(Math.Pow(10, i));
-                    //Console.WriteLine("x: " + x);
+                    reversedStr = (x / powered10).ToString() + reversedStr;
+                    x %= powered10;
+                    powered10 /= 10;
                 }
 
-                if (n == 10)
-                {
-                    if (x > 2)
-                    {
-                        return 0;
-                    }
-                    if (x == 2)
-                    {
-                        if (neg && reversed >= 147483648)
-                        {
-                            return 0;
-                        }
-                        if (!neg && reversed >= 147483647)
-                        {
-                            return 0;
-                        }
-                    }
-
-                }
-                //Console.WriteLine("last: " + Convert.ToInt32(Math.Pow(10, n-1)) * x);
-
-                reversed += Convert.ToInt32(Math.Pow(10, n - 1)) * x;
-                //Console.WriteLine("rev: " + reversed);
-
-                if (reversed > Math.Pow(2, 31) - 1)
-                {
-                    return 0;
-                }
-
+                long reversed = long.Parse(reversedStr);
                 if (neg)
                 {
                     reversed *= -1;
@@ -82,10 +52,12 @@ namespace _7.Reverse_Integer
                         return 0;
                     }
                 }
+                else if (reversed > Math.Pow(2, 31) - 1)
+                {
+                    return 0;
+                }
 
-
-
-                return reversed;
+                return (int)reversed;
             }
         }
     }
