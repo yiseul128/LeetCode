@@ -14,6 +14,7 @@ namespace _28.Find_the_Index_of_the_First_Occurrence_in_a_String
     }
     public class Solution
     {
+        /*
         public int StrStr(string haystack, string needle)
         {
             for (int i = 0; i <= haystack.Length - needle.Length; i++)
@@ -34,6 +35,31 @@ namespace _28.Find_the_Index_of_the_First_Occurrence_in_a_String
                         return i;
                     }
 
+                }
+            }
+            return -1;
+        }
+        */
+
+        public int StrStr(string haystack, string needle)
+        {
+            int count = 0;
+
+            for (int i = 0; i < haystack.Length; i++)
+            {
+                if (needle[count] == haystack[i])
+                {
+                    count++;
+                }
+                else
+                {
+                    i -= count;
+                    count = 0;
+                }
+
+                if (count == needle.Length)
+                {
+                    return i - count + 1;
                 }
             }
             return -1;
