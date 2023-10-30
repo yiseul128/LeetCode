@@ -28,11 +28,19 @@ namespace _34.Find_First_and_Last_Position_of_Element_in_Sorted_Array
                     if (answer[0] == -1)
                     {
                         answer[0] = i;
-                        answer[1] = i;
+                        break;
                     }
-                    else
+                }
+            }
+
+            for (int i = nums.Length - 1; i >= 0; i--)
+            {
+                if (target == nums[i])
+                {
+                    if (answer[1] == -1)
                     {
                         answer[1] = i;
+                        break;
                     }
                 }
             }
