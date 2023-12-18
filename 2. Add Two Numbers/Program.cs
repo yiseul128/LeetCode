@@ -30,45 +30,20 @@ namespace _2.Add_Two_Numbers
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
 
-            bool over = false;
-
             ListNode head = new ListNode();
             ListNode curr = head;
 
             while (true)
             {
-                if (over)
+                if (l2 != null)
                 {
-                    curr.val = 1;
-                    over = false;
-                }
-
-                int tmp = curr.val;
-                if (l1 == null)
-                {
-                    tmp += l2.val;
+                    curr.val += l2.val;
                     l2 = l2.next;
                 }
-                else if (l2 == null)
+                if (l1 != null)
                 {
-                    tmp += l1.val;
+                    curr.val += l1.val;
                     l1 = l1.next;
-                }
-                else
-                {
-                    tmp += l1.val + l2.val;
-                    l1 = l1.next;
-                    l2 = l2.next;
-                }
-
-                if (tmp > 9)
-                {
-                    over = true;
-                    curr.val = tmp % 10;
-                }
-                else
-                {
-                    curr.val = tmp;
                 }
 
                 if (l1 == null && l2 == null)
@@ -76,16 +51,23 @@ namespace _2.Add_Two_Numbers
                     break;
                 }
 
-                curr.next = new ListNode();
+                // deal with carry
+                if (curr.val > 9)
+                {
+                    curr.val = curr.val % 10;
+                    curr.next = new ListNode(1);
+                }
+                else
+                {
+                    curr.next = new ListNode();
+                }
                 curr = curr.next;
-
             }
 
-            if (over)
+            if (curr.val > 9)
             {
-                curr.next = new ListNode();
-                curr = curr.next;
-                curr.val = 1;
+                curr.val %= 10;
+                curr.next = new ListNode(1);
             }
 
             return head;
