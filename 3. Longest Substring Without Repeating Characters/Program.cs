@@ -29,18 +29,13 @@ namespace _3.Longest_Substring_Without_Repeating_Characters
                 }
                 return 1;
             }
-            if (s.Length == 1)
-            {
-                return 1;
-            }
 
-            string prevSub = "";
+            string prevSub = "" + s[0];
             string uniqueSub = "" + s[0];
-            int maxLength = 0;
+            int maxLength = 1;
 
             for (int i = 1; i < s.Length; i++)
             {
-
                 bool repeat = false;
                 int repeatFound = 0;
                 for (int j = 0; j < uniqueSub.Length; j++)
@@ -58,10 +53,11 @@ namespace _3.Longest_Substring_Without_Repeating_Characters
                 }
                 else
                 {
-
                     prevSub = uniqueSub;
+                    // cut from first found s[i] and get a new substr with s[i]
                     uniqueSub = uniqueSub.Substring(repeatFound + 1) + s[i];
                 }
+
                 if (prevSub.Length < uniqueSub.Length)
                 {
                     maxLength = (maxLength < uniqueSub.Length) ? uniqueSub.Length : maxLength;
@@ -70,14 +66,7 @@ namespace _3.Longest_Substring_Without_Repeating_Characters
                 {
                     maxLength = (maxLength < prevSub.Length) ? prevSub.Length : maxLength;
                 }
-                // Console.WriteLine("s: "+ s);
-                // Console.WriteLine("i: "+ i);
-                // Console.WriteLine("unique: "+ uniqueSub);
-                // Console.WriteLine("max: "+ maxLength);
             }
-            // Console.WriteLine("prev: "+ prevSub);
-            // Console.WriteLine("unique: "+ uniqueSub);
-            // Console.WriteLine("max: "+ maxLength);
 
             return maxLength;
         }
