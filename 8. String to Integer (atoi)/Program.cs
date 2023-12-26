@@ -21,10 +21,10 @@ namespace _8.String_to_Integer__atoi_
     {
         public int MyAtoi(string s)
         {
-            string[] digits = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+            char[] digits = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
+            //trim white space
             s = s.Trim();
-            //Console.WriteLine(s);
 
             int index = 0;
             bool sign = true;
@@ -37,10 +37,9 @@ namespace _8.String_to_Integer__atoi_
             //trim 0
             for (int i = index; i < s.Length; i++)
             {
-                if ("0" == s[i].ToString())
+                if (digits[0] == s[i])
                 {
                     index++;
-                    //Console.WriteLine(index);
                 }
                 else
                 {
@@ -48,9 +47,10 @@ namespace _8.String_to_Integer__atoi_
                 }
             }
 
-            if (s[0].ToString() == "+" || s[0].ToString() == "-")
+            //get sign
+            if (s[0] == '+' || s[0] == '-')
             {
-                if (s[0].ToString() == "-")
+                if (s[0] == '-')
                 {
                     sign = false;
                 }
@@ -58,22 +58,24 @@ namespace _8.String_to_Integer__atoi_
                 index++;
             }
 
+            //after sign no number
             if (index == s.Length)
             {
                 return 0;
             }
 
-            if (s[index].ToString() == "+" || s[index].ToString() == "-")
+            //another sign (invalid)
+            if (s[index] == '+' || s[index] == '-')
             {
                 return 0;
             }
-
+            //after sign not a number (invalid)
             else
             {
                 bool isDigit = false;
                 for (int j = 0; j < digits.Length; j++)
                 {
-                    if (digits[j] == s[index].ToString())
+                    if (digits[j] == s[index])
                     {
                         isDigit = true;
                         break;
@@ -83,16 +85,14 @@ namespace _8.String_to_Integer__atoi_
                 {
                     return 0;
                 }
-
             }
 
-            //trim 0
+            //trim 0 after sign
             for (int i = index; i < s.Length; i++)
             {
-                if ("0" == s[i].ToString())
+                if (digits[0] == s[i])
                 {
                     index++;
-                    //Console.WriteLine(index);
                 }
                 else
                 {
@@ -103,15 +103,14 @@ namespace _8.String_to_Integer__atoi_
             int start = index;
             int end = s.Length;
 
-
+            //find end
             for (int i = index; i < s.Length; i++)
             {
                 bool isDigit = false;
 
-                //Console.WriteLine("s: " + s[i].ToString());
                 for (int j = 0; j < digits.Length; j++)
                 {
-                    if (digits[j] == s[i].ToString())
+                    if (digits[j] == s[i])
                     {
                         isDigit = true;
                         break;
@@ -127,6 +126,12 @@ namespace _8.String_to_Integer__atoi_
 
             string number = s.Substring(start, end - start);
 
+            if (number.Length == 0)
+            {
+                return 0;
+            }
+
+            //check over boundary
             if (number.Length > 10)
             {
                 if (sign)
@@ -139,10 +144,6 @@ namespace _8.String_to_Integer__atoi_
                 }
             }
 
-            if (number.Length == 0)
-            {
-                return 0;
-            }
             long result = Int64.Parse(number);
 
             if (!sign)
@@ -150,6 +151,7 @@ namespace _8.String_to_Integer__atoi_
                 result *= -1;
             }
 
+            //check over boundary
             if (result < -2147483648)
             {
                 result = -2147483648;
