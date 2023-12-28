@@ -23,6 +23,27 @@ namespace _11.Container_With_Most_Water
         {
             int max = 0;
 
+            int left = 0;
+            int right = height.Length - 1;
+
+            // O(n)
+            while (left < right)
+            {
+                int newArea = (right - left) * (height[right] < height[left] ? height[right] : height[left]);
+                max = max > newArea ? max : newArea;
+
+                if (height[left] > height[right])
+                {
+                    right--;
+                }
+                else
+                {
+                    left++;
+                }
+            }
+
+            /* 
+             * O(n^2)
             for (int i = 0; i < height.Length - 1; i++)
             {
                 if (max > height[i] * height.Length)
@@ -37,6 +58,7 @@ namespace _11.Container_With_Most_Water
                     max = max > newMax ? max : newMax;
                 }
             }
+            */
 
             return max;
         }
