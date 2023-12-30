@@ -29,18 +29,9 @@ namespace _14.Longest_Common_Prefix
             int minLength = strs[0].Length;
 
             //get min length of strs elements
-            for (int i = 0; i < strs.Length - 1; i++)
+            for (int i = 1; i < strs.Length; i++)
             {
-                if (strs[i].Length > strs[i + 1].Length)
-                {
-                    minLength = minLength > strs[i + 1].Length ? strs[i + 1].Length : minLength;
-                }
-                else
-                {
-                    minLength = minLength > strs[i].Length ? strs[i].Length : minLength;
-                }
-
-                //Console.WriteLine(minLength);
+                minLength = minLength > strs[i].Length ? strs[i].Length : minLength;
             }
 
             string prefix = "";
@@ -56,7 +47,6 @@ namespace _14.Longest_Common_Prefix
                 }
 
                 prefix += strs[0][i].ToString();
-                //Console.WriteLine(prefix);
             }
 
             return prefix;
