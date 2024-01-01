@@ -22,37 +22,36 @@ namespace _16._3Sum_Closest
             int closest;
             closest = Int32.MaxValue;
 
-            for (int i = 0; i < nums.Length - 2; i++)
+            // i<k<j
+            for (int i = 0; i < nums.Length; i++)
             {
-                int j = i + 1;
-                int k = nums.Length - 1;
-
-                while (j < k)
+                for (int j = i + 2; j < nums.Length; j++)
                 {
-                    int sum = nums[i] + nums[j] + nums[k];
+                    int sumOfTwo = nums[i] + nums[j];
+                    int requiredK = target - sumOfTwo;
 
-                    // found target
-                    if (sum == target)
+                    // binary search
+                    int l = i + 1;
+                    int r = j - 1;
+                    while (l <= r)
                     {
-                        return sum;
-                    }
+                        int m = Convert.ToInt32(Math.Floor((double)(l + r) / 2));
+                        // update closest
+                        int newSum = sumOfTwo + nums[m];
+                        closest = Math.Abs(target - closest) < Math.Abs(target - newSum) ? closest : newSum;
 
-                    // compare
-                    if (Math.Abs(closest - target) > Math.Abs(sum - target))
-                    {
-                        closest = sum;
-                    }
-
-
-                    if (sum < target)
-                    {
-                        // make sum bigger
-                        j++;
-                    }
-                    else
-                    {
-                        // make sum smaller
-                        k--;
+                        if (nums[m] < requiredK)
+                        {
+                            l = m + 1;
+                        }
+                        else if (nums[m] > requiredK)
+                        {
+                            r = m - 1;
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                 }
             }
