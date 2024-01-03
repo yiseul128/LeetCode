@@ -28,15 +28,11 @@ namespace _19.Remove_Nth_Node_From_End_of_List
     {
         public ListNode RemoveNthFromEnd(ListNode head, int n)
         {
-
             ListNode curNode = head;
-
-            ListNode[] nodes = new ListNode[30];
 
             int count = 0;
             while (curNode != null)
             {
-                nodes[count] = curNode;
                 curNode = curNode.next;
                 count++;
             }
@@ -50,7 +46,14 @@ namespace _19.Remove_Nth_Node_From_End_of_List
             else
             {
                 //regular case
-                nodes[count - n - 1].next = nodes[count - n + 1];
+                curNode = head;
+                count--;
+                for (; count > n; count--)
+                {
+                    curNode = curNode.next;
+                }
+
+                curNode.next = curNode.next.next;
             }
             return head;
         }
