@@ -1,0 +1,8 @@
+C:\LeetCode\25. Reverse Nodes in k-Group\bin\Debug\_25.Reverse_Nodes_in_k_Group.exe.config
+C:\LeetCode\25. Reverse Nodes in k-Group\bin\Debug\_25.Reverse_Nodes_in_k_Group.exe
+C:\LeetCode\25. Reverse Nodes in k-Group\bin\Debug\_25.Reverse_Nodes_in_k_Group.pdb
+C:\LeetCode\25. Reverse Nodes in k-Group\obj\Debug\25. Reverse Nodes in k-Group.csproj.AssemblyReference.cache
+C:\LeetCode\25. Reverse Nodes in k-Group\obj\Debug\25. Reverse Nodes in k-Group.csproj.SuggestedBindingRedirects.cache
+C:\LeetCode\25. Reverse Nodes in k-Group\obj\Debug\25. Reverse Nodes in k-Group.csproj.CoreCompileInputs.cache
+C:\LeetCode\25. Reverse Nodes in k-Group\obj\Debug\_25.Reverse_Nodes_in_k_Group.exe
+C:\LeetCode\25. Reverse Nodes in k-Group\obj\Debug\_25.Reverse_Nodes_in_k_Group.pdb
