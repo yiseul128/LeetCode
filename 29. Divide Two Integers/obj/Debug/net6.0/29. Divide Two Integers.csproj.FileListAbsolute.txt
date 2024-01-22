@@ -1,0 +1,15 @@
+C:\LeetCode\29. Divide Two Integers\bin\Debug\net6.0\29. Divide Two Integers.exe
+C:\LeetCode\29. Divide Two Integers\bin\Debug\net6.0\29. Divide Two Integers.deps.json
+C:\LeetCode\29. Divide Two Integers\bin\Debug\net6.0\29. Divide Two Integers.runtimeconfig.json
+C:\LeetCode\29. Divide Two Integers\bin\Debug\net6.0\29. Divide Two Integers.dll
+C:\LeetCode\29. Divide Two Integers\bin\Debug\net6.0\29. Divide Two Integers.pdb
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.csproj.AssemblyReference.cache
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.GeneratedMSBuildEditorConfig.editorconfig
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.AssemblyInfoInputs.cache
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.AssemblyInfo.cs
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.csproj.CoreCompileInputs.cache
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.dll
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\refint\29. Divide Two Integers.dll
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.pdb
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\29. Divide Two Integers.genruntimeconfig.cache
+C:\LeetCode\29. Divide Two Integers\obj\Debug\net6.0\ref\29. Divide Two Integers.dll
