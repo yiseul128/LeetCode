@@ -1,5 +1,4 @@
 ﻿Solution s = new Solution();
-int[] a = { 0, 1, 2, 1, 2 };
 Console.WriteLine(s.Divide(-2147483648, -1));
 
 public class Solution

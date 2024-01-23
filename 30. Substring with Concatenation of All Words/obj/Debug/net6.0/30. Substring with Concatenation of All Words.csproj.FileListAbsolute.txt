@@ -1,0 +1,15 @@
+C:\LeetCode\30. Substring with Concatenation of All Words\bin\Debug\net6.0\30. Substring with Concatenation of All Words.exe
+C:\LeetCode\30. Substring with Concatenation of All Words\bin\Debug\net6.0\30. Substring with Concatenation of All Words.deps.json
+C:\LeetCode\30. Substring with Concatenation of All Words\bin\Debug\net6.0\30. Substring with Concatenation of All Words.runtimeconfig.json
+C:\LeetCode\30. Substring with Concatenation of All Words\bin\Debug\net6.0\30. Substring with Concatenation of All Words.dll
+C:\LeetCode\30. Substring with Concatenation of All Words\bin\Debug\net6.0\30. Substring with Concatenation of All Words.pdb
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.csproj.AssemblyReference.cache
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.GeneratedMSBuildEditorConfig.editorconfig
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.AssemblyInfoInputs.cache
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.AssemblyInfo.cs
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.csproj.CoreCompileInputs.cache
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.dll
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\refint\30. Substring with Concatenation of All Words.dll
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.pdb
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\30. Substring with Concatenation of All Words.genruntimeconfig.cache
+C:\LeetCode\30. Substring with Concatenation of All Words\obj\Debug\net6.0\ref\30. Substring with Concatenation of All Words.dll

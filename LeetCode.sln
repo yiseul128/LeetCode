@@ -319,7 +319,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "567. Permutation in String"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27. Remove Element", "27. Remove Element\27. Remove Element.csproj", "{CD02B8CB-DE5A-4B94-AE8F-5EC2067B8839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. Divide Two Integers", "29. Divide Two Integers\29. Divide Two Integers.csproj", "{F8550A60-9C32-41A1-AD27-ADE7F101AED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29. Divide Two Integers", "29. Divide Two Integers\29. Divide Two Integers.csproj", "{F8550A60-9C32-41A1-AD27-ADE7F101AED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. Substring with Concatenation of All Words", "30. Substring with Concatenation of All Words\30. Substring with Concatenation of All Words.csproj", "{DDCD5236-D2D0-4911-B26B-BD374EB71BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -963,6 +965,10 @@ Global
 		{F8550A60-9C32-41A1-AD27-ADE7F101AED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8550A60-9C32-41A1-AD27-ADE7F101AED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8550A60-9C32-41A1-AD27-ADE7F101AED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCD5236-D2D0-4911-B26B-BD374EB71BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCD5236-D2D0-4911-B26B-BD374EB71BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCD5236-D2D0-4911-B26B-BD374EB71BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCD5236-D2D0-4911-B26B-BD374EB71BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
