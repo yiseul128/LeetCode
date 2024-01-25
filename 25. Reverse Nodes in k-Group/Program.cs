@@ -86,48 +86,57 @@ namespace _25.Reverse_Nodes_in_k_Group
 
             return RecursiveReverse(head, null, k, len / k);
 
-            /* iterative */
-            // int count = len/k;
+            // iterative solution
+            /* 
+            int count = len / k;
 
-            // // loop 
-            // bool headFound = false;
-            // ListNode newHead = head;
-            // ListNode prevEnd = null;
-            // ListNode currEnd = null;
-            // ListNode prev = null;
-            // ListNode curr = head;
-            // ListNode tmpNext = null;
-            // for(int i = 0; i < count; i++){
-            //     for(int j = 0; j < k; j++){
-            //         tmpNext = curr.next;
+            // loop 
+            bool headFound = false;
+            ListNode newHead = head;
+            ListNode prevEnd = null;
+            ListNode currEnd = null;
+            ListNode prev = null;
+            ListNode curr = head;
+            ListNode tmpNext = null;
+            for (int i = 0; i < count; i++)
+            {
+                for (int j = 0; j < k; j++)
+                {
+                    tmpNext = curr.next;
 
-            //         // first
-            //         if(j == 0){
-            //             currEnd = curr;
-            //         }
-            //         else{
-            //             curr.next = prev;
+                    // first
+                    if (j == 0)
+                    {
+                        currEnd = curr;
+                    }
+                    else
+                    {
+                        curr.next = prev;
 
-            //             // last
-            //             if(j == k-1){
-            //                 if(prevEnd != null){
-            //                     prevEnd.next = curr;
-            //                 }
-            //                 prevEnd = currEnd;
+                        // last
+                        if (j == k - 1)
+                        {
+                            if (prevEnd != null)
+                            {
+                                prevEnd.next = curr;
+                            }
+                            prevEnd = currEnd;
 
-            //                 if(!headFound){
-            //                     newHead = curr;
-            //                     headFound = true;
-            //                 }
-            //             }
-            //         }
-            //         prev = curr;
-            //         curr = tmpNext;
-            //     }   
-            // }
-            // currEnd.next = curr;
+                            if (!headFound)
+                            {
+                                newHead = curr;
+                                headFound = true;
+                            }
+                        }
+                    }
+                    prev = curr;
+                    curr = tmpNext;
+                }
+            }
+            currEnd.next = curr;
 
-            // return newHead;
+            return newHead;
+            */
         }
     }
 }
