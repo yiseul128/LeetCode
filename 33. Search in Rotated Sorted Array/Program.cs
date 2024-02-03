@@ -23,31 +23,37 @@ namespace _33.Search_in_Rotated_Sorted_Array
         public int Search(int[] nums, int target)
         {
 
-            if (nums[0] == target)
+            // find starting idx
+            int numLen = nums.Length;
+            int startIdx = 0;
+            for (int i = 1; i < numLen; i++)
             {
-                return 0;
-            }
-            else if (nums.Length == 1)
-            {
-                return -1;
-            }
-
-            for (int i = 1; i < nums.Length; i++)
-            {
-
-                if (nums[i] == target)
-                {
-                    return i;
-                }
-
                 if (nums[i - 1] > nums[i])
                 {
-                    if (nums[i - 1] < target || nums[i] > target)
-                    {
-                        return -1; //no target afterward
-                    }
+                    startIdx = i;
+                    break;
                 }
+            }
 
+            // binary search
+            int left = 0;
+            int right = numLen - 1;
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+                int adjustedMid = (mid + startIdx) % numLen;
+                if (nums[adjustedMid] == target)
+                {
+                    return adjustedMid;
+                }
+                else if (nums[adjustedMid] > target)
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
             }
 
             return -1;
