@@ -16,36 +16,55 @@ namespace _34.Find_First_and_Last_Position_of_Element_in_Sorted_Array
     {
         public int[] SearchRange(int[] nums, int target)
         {
-
             int[] answer = new int[2];
             answer[0] = -1;
             answer[1] = -1;
-
-            for (int i = 0; i < nums.Length; i++)
-            {
-                if (target == nums[i])
-                {
-                    if (answer[0] == -1)
-                    {
-                        answer[0] = i;
-                        break;
-                    }
-                }
-            }
-
-            for (int i = nums.Length - 1; i >= 0; i--)
-            {
-                if (target == nums[i])
-                {
-                    if (answer[1] == -1)
-                    {
-                        answer[1] = i;
-                        break;
-                    }
-                }
-            }
-
+            RecurSearchRange(nums, target, 0, nums.Length - 1, answer);
             return answer;
+        }
+
+        public void RecurSearchRange(int[] nums, int target, int left, int right, int[] answer)
+        {
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+
+                if (nums[mid] == target)
+                {
+                    // recurr
+                    int first = answer[0];
+                    int last = answer[1];
+
+                    // first
+                    if (first == -1 || mid < first)
+                    {
+                        answer[0] = mid;
+                        if (left < mid)
+                        {
+                            RecurSearchRange(nums, target, 0, mid - 1, answer);
+                        }
+                    }
+
+                    // last
+                    if (last == -1 || mid > last)
+                    {
+                        answer[1] = mid;
+                        if (right > mid)
+                        {
+                            RecurSearchRange(nums, target, mid + 1, nums.Length - 1, answer);
+                        }
+                    }
+                    return;
+                }
+                else if (nums[mid] > target)
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
         }
     }
 }
