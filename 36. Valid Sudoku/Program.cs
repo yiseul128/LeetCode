@@ -17,42 +17,44 @@ namespace _36.Valid_Sudoku
         public bool IsValidSudoku(char[][] board)
         {
 
+            // vertical & horizontal
             for (int r = 0; r < 9; r++)
             {
-                HashSet<char> v = new HashSet<char>();
-                HashSet<char> h = new HashSet<char>();
+                bool[] v = new bool[10];
+                bool[] h = new bool[10];
+
                 for (int c = 0; c < 9; c++)
                 {
-                    // horizontal 
                     if (board[r][c] != '.')
                     {
-                        if (h.Contains(board[r][c]))
+                        int currNum = Int32.Parse(board[r][c].ToString());
+                        if (h[currNum])
                         {
                             return false;
                         }
-                        h.Add(board[r][c]);
+                        h[currNum] = true;
                     }
 
-                    //vertical
                     if (board[c][r] != '.')
                     {
-                        if (v.Contains(board[c][r]))
+                        int currNum = Int32.Parse(board[c][r].ToString());
+                        if (v[currNum])
                         {
                             return false;
                         }
-                        v.Add(board[c][r]);
+                        v[currNum] = true;
                     }
                 }
             }
 
-            // sub box
+            // boxes
             int[] rs = { 0, 3, 6, 0, 3, 6, 0, 3, 6 };
             int[] cs = { 0, 0, 0, 3, 3, 3, 6, 6, 6 };
             for (int i = 0; i < 9; i++)
             {
                 int curr = rs[i];
                 int curc = cs[i];
-                HashSet<char> b = new HashSet<char>();
+                bool[] b = new bool[10];
 
                 for (int r = 0; r < 3; r++)
                 {
@@ -60,11 +62,12 @@ namespace _36.Valid_Sudoku
                     {
                         if (board[curr + r][curc + c] != '.')
                         {
-                            if (b.Contains(board[curr + r][curc + c]))
+                            int currNum = Int32.Parse(board[curr + r][curc + c].ToString());
+                            if (b[currNum])
                             {
                                 return false;
                             }
-                            b.Add(board[curr + r][curc + c]);
+                            b[currNum] = true;
                         }
                     }
                 }
