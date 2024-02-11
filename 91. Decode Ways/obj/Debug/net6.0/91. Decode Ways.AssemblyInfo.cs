@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("91. Decode Ways")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f01b4e550ca628e4a3ef1d8dd149dd6349a7b71")]
 [assembly: System.Reflection.AssemblyProductAttribute("91. Decode Ways")]
 [assembly: System.Reflection.AssemblyTitleAttribute("91. Decode Ways")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uFf129u/+dzSIKm3OuQh/Y5jT5TrOwR+ieHhgvvI4g7RAopw6hPVRoAt537mMNWpAWIZJ75WNZzUhS1wFhsmZQ==",
+  "dgSpecHash": "tWYkYc+sFo7g64ItRFmdXCIObqKr+8OKpafIK0jw8VWWVP3GlKtkDVBNkQBHCWUNoZVl92YGcpjgwJVFlHIN4g==",
   "success": true,
   "projectFilePath": "C:\\LeetCode\\236. Lowest Common Ancestor of a Binary Tree\\236. Lowest Common Ancestor of a Binary Tree.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
+    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Yiseul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
