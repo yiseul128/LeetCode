@@ -12,8 +12,8 @@ namespace _41.First_Missing_Positive
         {
             Solution s = new Solution();
 
-            int[] nums = { 7, 8, 9, 11, 12 };
-            Console.WriteLine(s.FirstMissingPositive(nums)); // 1
+            int[] nums = { 4, 1, 2, 3 };
+            Console.WriteLine(s.FirstMissingPositive(nums)); // 5
 
             int[] nums2 = { 3, 4, -1, 1 };
             Console.WriteLine(s.FirstMissingPositive(nums2)); // 2
@@ -24,33 +24,52 @@ namespace _41.First_Missing_Positive
     {
         public int FirstMissingPositive(int[] nums)
         {
-            bool[] found = new bool[nums.Length + 2]; //too much memory?
-
+            // remove 1>x || nums.Length<x => 0
             for (int i = 0; i < nums.Length; i++)
             {
-                if (0 < nums[i] && nums[i] < nums.Length + 2)
+                if (nums[i] < 1 || nums[i] > nums.Length)
                 {
-                    found[nums[i]] = true;
+                    nums[i] = 0;
                 }
             }
 
-            //         Console.WriteLine("[");
-            //         for(int i = 1; i<found.Length; i++){
-            //              Console.WriteLine(found[i] + ", ");
-            //         }
-            //         Console.WriteLine("]");
-
-            int missing = -1;
-            for (int i = 1; i < found.Length; i++)
+            // move nums to corresponding idx
+            int prev = 0;
+            for (int i = 0; i < nums.Length; i++)
             {
-                if (!found[i])
+                // deal with prev
+                // might be n^2 due to this while loop, although not likely to happen in cases
+                while (prev != 0)
                 {
-                    missing = i;
-                    break;
+                    int temp = 0;
+                    if (nums[prev - 1] != prev)
+                    {
+                        temp = nums[prev - 1];
+                    }
+                    nums[prev - 1] = prev;
+                    prev = temp;
+                }
+
+                // deal with curr
+                if (nums[i] != 0 && nums[i] != i + 1)
+                {
+                    int currNum = nums[i];
+                    prev = nums[currNum - 1];
+                    nums[currNum - 1] = currNum;
+                    nums[i] = 0;
                 }
             }
 
-            return missing;
+            // check 1st missing pos
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 0)
+                {
+                    return i + 1;
+                }
+            }
+
+            return nums.Length + 1;
         }
     }
 }

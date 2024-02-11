@@ -4,3 +4,4 @@ C:\LeetCode\41. First Missing Positive\bin\Debug\_41.First_Missing_Positive.pdb
 C:\LeetCode\41. First Missing Positive\obj\Debug\41. First Missing Positive.csproj.CoreCompileInputs.cache
 C:\LeetCode\41. First Missing Positive\obj\Debug\_41.First_Missing_Positive.exe
 C:\LeetCode\41. First Missing Positive\obj\Debug\_41.First_Missing_Positive.pdb
+C:\LeetCode\41. First Missing Positive\obj\Debug\41. First Missing Positive.csproj.AssemblyReference.cache
