@@ -16,6 +16,32 @@ namespace _38.Count_and_Say
     {
         public string CountAndSay(int n)
         {
+            /* sln with loop  */
+            
+            //string  said = "1";
+
+            //for(int i=1; i<n; i++){
+            //    string newSaid = "";
+
+            //    int count=1;
+            //    for(int j=1; j<said.Length; j++){
+            //        //count
+            //        if(said[j]==said[j-1]){
+            //            count++;
+            //        }
+            //        //say
+            //        else{
+            //            newSaid += count.ToString() + said[j-1].ToString();
+            //            count=1;
+            //        }
+            //    }
+            //    newSaid += count.ToString() + said[said.Length-1].ToString();
+
+            //    said = newSaid;
+            //}
+
+            //return said;
+            
             return CountAndSayRecur(n, "1");
         }
 
