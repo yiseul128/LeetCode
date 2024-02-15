@@ -16,6 +16,54 @@ namespace _56.Merge_Intervals
     {
         public int[][] Merge(int[][] intervals)
         {
+            /* solution using less memory with sort and merge */
+            //// bubble sort
+            //int n = intervals.Length;
+            //for (int i = 0; i < n; i++)
+            //{
+            //    bool swapped = false;
+            //    for (int j = 0; j < n - i - 1; j++)
+            //    {
+            //        //swap
+            //        if (intervals[j][0] > intervals[j + 1][0])
+            //        {
+            //            int[] temp = intervals[j + 1];
+            //            intervals[j + 1] = intervals[j];
+            //            intervals[j] = temp;
+            //            swapped = true;
+            //        }
+            //    }
+
+            //    if (!swapped)
+            //    {
+            //        break;
+            //    }
+            //}
+
+            //// merge
+            //List<int[]> mergedList = new List<int[]>();
+            //for (int i = 0; i < n - 1; i++)
+            //{
+            //    //Console.WriteLine($"{intervals[i][0]} {intervals[i][1]}");
+
+            //    if (intervals[i][1] >= intervals[i + 1][0] && intervals[i][1] <= intervals[i + 1][1])
+            //    {
+            //        int[] merged = new int[] { intervals[i][0], intervals[i + 1][1] };
+            //        intervals[i + 1] = merged;
+            //    }
+            //    else if (intervals[i][1] >= intervals[i + 1][1])
+            //    {
+            //        intervals[i + 1] = intervals[i];
+            //    }
+            //    else
+            //    {
+            //        mergedList.Add(intervals[i]);
+            //    }
+            //}
+            //mergedList.Add(intervals[n - 1]);
+
+            //return mergedList.ToArray();
+
             SortedDictionary<int, List<string>> range = new SortedDictionary<int, List<string>>();
 
             for (int i = 0; i < intervals.Length; i++)
