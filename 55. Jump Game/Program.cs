@@ -22,67 +22,34 @@ namespace _55.Jump_Game
 
     public class Solution
     {
-        bool[] memo;
-        int count = 0;
-        int[] globalNums;
-
         public bool CanJump(int[] nums)
         {
-            if (nums.Length == 1)
+            bool[] memo = new bool[nums.Length];
+            return RecurCanJump(nums, 0, memo);
+        }
+
+        public bool RecurCanJump(int[] nums, int idx, bool[] memo)
+        {
+            if (idx >= nums.Length - 1)
             {
                 return true;
             }
-            if (nums.Length > 10000)
+
+            if (memo[idx])
             {
                 return false;
             }
 
-            globalNums = nums;
-            memo = new bool[nums.Length];
-            return RecurJump(0);
-        }
-
-
-        public bool RecurJump(int jumped)
-        {
-            if (globalNums[jumped] == 0)
-            { //stop there and move on to next
-                return false;
-            }
-            if (memo[jumped])
+            for (int i = nums[idx]; i > 0; i--)
             {
-                return false;
-            }
-
-            for (int i = 1; i <= globalNums[jumped]; i++)
-            {
-                int curJumped = jumped;
-
-                //Console.WriteLine("i: " + i);
-
-                curJumped += i;
-
-                //Console.WriteLine("curJumped: " + curJumped);
-
-                //base case
-                if (globalNums.Length <= curJumped + 1)
+                if (RecurCanJump(nums, idx + i, memo))
                 {
                     return true;
                 }
-                if (globalNums[curJumped] == 0)
-                { //stop there and move on to next
-                    continue;
-                }
-
-                //regular
-                if (RecurJump(curJumped))
-                {
-                    return true;
-                };
             }
-            memo[jumped] = true;
+
+            memo[idx] = true;
             return false;
-
         }
     }
 }
