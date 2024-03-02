@@ -12,62 +12,52 @@ namespace _64.Minimum_Path_Sum
         {
         }
     }
+
     public class Solution
     {
-        public int[][] dists;
         public int MinPathSum(int[][] grid)
         {
-
-            // distance board
-            dists = new int[grid.Length][];
-            int MAX_INT = 40000000;
-
+            int[,] memo = new int[grid.Length, grid[0].Length];
             for (int i = 0; i < grid.Length; i++)
             {
-                dists[i] = new int[grid[0].Length];
                 for (int j = 0; j < grid[0].Length; j++)
                 {
-                    dists[i][j] = MAX_INT;
+                    memo[i, j] = Int32.MaxValue;
                 }
             }
-            dists[0][0] = grid[0][0];
+            RecurMinPath(grid, 0, 0, 0, memo);
 
-            // find paths 
-            FindPaths(grid, 0, 0);
-
-            return dists[grid.Length - 1][grid[0].Length - 1];
+            return memo[grid.Length - 1, grid[0].Length - 1] + grid[grid.Length - 1][grid[0].Length - 1];
         }
 
-        public void FindPaths(int[][] grid, int r, int c)
+        public void RecurMinPath(int[][] grid, int r, int c, int sum, int[,] memo)
         {
-            // base case
-            if (r == grid.Length - 1 && c == grid[0].Length - 1)
+            if (memo[r, c] > sum)
+            {
+                memo[r, c] = sum;
+            }
+            else
             {
                 return;
             }
 
-            // update dist and recur
-            if (r < grid.Length - 1)
+            // finish!
+            if (grid.Length - 1 == r && grid[0].Length - 1 == c)
             {
-                // down
-                int newDist = dists[r][c] + grid[r + 1][c];
-                if (dists[r + 1][c] > newDist)
-                {
-                    dists[r + 1][c] = newDist;
-                    FindPaths(grid, r + 1, c);
-                }
-            }
-            if (c < grid[0].Length - 1)
-            {
-                // right
-                int newDist = dists[r][c] + grid[r][c + 1];
-                if (dists[r][c + 1] > newDist)
-                {
-                    dists[r][c + 1] = newDist;
-                    FindPaths(grid, r, c + 1);
-                }
+                return;
             }
 
+            sum += grid[r][c];
+            // recur if next cell available
+            if (grid.Length - 1 > r)
+            {
+                RecurMinPath(grid, r + 1, c, sum, memo);
+            }
+
+            if (grid[0].Length - 1 > c)
+            {
+                RecurMinPath(grid, r, c + 1, sum, memo);
+            }
         }
     }
 }
