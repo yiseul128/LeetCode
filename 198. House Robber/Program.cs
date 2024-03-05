@@ -14,70 +14,39 @@ namespace _198.House_Robber
     }
     public class Solution
     {
-        int maxAmount = 0;
-
         public int Rob(int[] nums)
         {
-            if (nums.Length == 1)
+            int[] memo = new int[nums.Length + 1];
+            for (int i = 0; i < nums.Length + 1; i++)
             {
-                return nums[0];
+                memo[i] = Int32.MinValue;
             }
-            if (nums.Length == 2)
-            {
-                return nums[0] > nums[1] ? nums[0] : nums[1];
-            }
-
-            int[] maxFromIdx = new int[nums.Length];
-            for (int i = 0; i < maxFromIdx.Length; i++)
-            {
-                maxFromIdx[i] = -1;
-            }
-
-            ExploreHouses(nums, 0, 0, maxFromIdx);
-            ExploreHouses(nums, 0, 1, maxFromIdx);
-
-            return maxAmount;
+            Rob(nums, memo, 0, 0);
+            Rob(nums, memo, 1, 0);
+            return memo[nums.Length];
         }
 
-        public int ExploreHouses(int[] nums, int total, int currIdx, int[] maxFromIdx)
+        public void Rob(int[] nums, int[] memo, int idx, int sum)
         {
-            // Console.WriteLine(currIdx + ": " + total);
-            if (currIdx > nums.Length - 1)
+            // end
+            if (idx >= nums.Length)
             {
-                maxAmount = maxAmount > total ? maxAmount : total;
-                return total;
+                memo[nums.Length] = memo[nums.Length] > sum ? memo[nums.Length] : sum;
+                return;
             }
 
-            int currMax = total;
-            int newMax = 0;
-            if (currIdx + 2 < nums.Length && maxFromIdx[currIdx + 2] != -1)
+            // already visited with bigger sum
+            if (memo[idx] >= sum)
             {
-                newMax = total + maxFromIdx[currIdx + 2] + nums[currIdx];
-                maxAmount = maxAmount > newMax ? maxAmount : newMax;
+                return;
             }
-            else
-            {
-                newMax = ExploreHouses(nums, total + nums[currIdx], currIdx + 2, maxFromIdx);
-            }
-            currMax = currMax > newMax ? currMax : newMax;
 
-            if (currIdx < nums.Length - 2)
-            {
-                if (currIdx + 3 < nums.Length && maxFromIdx[currIdx + 3] != -1)
-                {
-                    newMax = total + maxFromIdx[currIdx + 3] + nums[currIdx];
-                    maxAmount = maxAmount > newMax ? maxAmount : newMax;
-                }
-                else
-                {
-                    newMax = ExploreHouses(nums, total + nums[currIdx], currIdx + 3, maxFromIdx);
-                }
-            }
-            currMax = currMax > newMax ? currMax : newMax;
-
-            maxFromIdx[currIdx] = currMax - total;
-
-            return currMax;
+            memo[idx] = memo[idx] > sum ? memo[idx] : sum;
+            sum += nums[idx];
+            // skip 1 house
+            Rob(nums, memo, idx + 2, sum);
+            // skip 2 houses
+            Rob(nums, memo, idx + 3, sum);
         }
     }
 }
