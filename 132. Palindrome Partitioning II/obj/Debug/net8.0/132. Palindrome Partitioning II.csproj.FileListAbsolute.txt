@@ -1,0 +1,15 @@
+C:\LeetCode\132. Palindrome Partitioning II\bin\Debug\net8.0\132. Palindrome Partitioning II.exe
+C:\LeetCode\132. Palindrome Partitioning II\bin\Debug\net8.0\132. Palindrome Partitioning II.deps.json
+C:\LeetCode\132. Palindrome Partitioning II\bin\Debug\net8.0\132. Palindrome Partitioning II.runtimeconfig.json
+C:\LeetCode\132. Palindrome Partitioning II\bin\Debug\net8.0\132. Palindrome Partitioning II.dll
+C:\LeetCode\132. Palindrome Partitioning II\bin\Debug\net8.0\132. Palindrome Partitioning II.pdb
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.GeneratedMSBuildEditorConfig.editorconfig
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.AssemblyInfoInputs.cache
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.AssemblyInfo.cs
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.csproj.CoreCompileInputs.cache
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.sourcelink.json
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.dll
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\refint\132. Palindrome Partitioning II.dll
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.pdb
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\132. Palindrome Partitioning II.genruntimeconfig.cache
+C:\LeetCode\132. Palindrome Partitioning II\obj\Debug\net8.0\ref\132. Palindrome Partitioning II.dll
