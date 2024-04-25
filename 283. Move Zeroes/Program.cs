@@ -16,7 +16,21 @@ namespace _283.Move_Zeroes
     {
         public void MoveZeroes(int[] nums)
         {
+            int nonZeroIdx = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] != 0)
+                {
+                    nums[nonZeroIdx] = nums[i];
+                    if (i != nonZeroIdx)
+                    {
+                        nums[i] = 0;
+                    }
+                    nonZeroIdx++;
+                }
+            }
 
+            /*
             for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] == 0)
@@ -39,6 +53,7 @@ namespace _283.Move_Zeroes
 
                 }
             }
+            */
         }
     }
 }
