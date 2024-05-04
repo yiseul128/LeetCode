@@ -29,30 +29,45 @@ namespace _206.Reverse_Linked_List
     {
         public ListNode ReverseList(ListNode head)
         {
-
             if (head == null || head.next == null)
             {
                 return head;
             }
 
-            ListNode prevOne = head;
-            ListNode currOne = head.next;
-            ListNode nextOne;
-            prevOne.next = null; //handle head
+            ListNode prevNode = head;
+            ListNode currNode = head.next;
+            head.next = null;
 
-            while (currOne.next != null)
+            // return IterativeReverseList(currNode, prevNode);
+            return RecursiveReverseList(currNode, prevNode);
+        }
+
+        public ListNode IterativeReverseList(ListNode currNode, ListNode prevNode)
+        {
+            while (currNode != null)
             {
-                nextOne = currOne.next;
-                currOne.next = prevOne;
-
-                prevOne = currOne;
-                currOne = nextOne;
+                ListNode nextNode = currNode.next;
+                currNode.next = prevNode;
+                prevNode = currNode;
+                currNode = nextNode;
             }
 
-            currOne.next = prevOne; //handle tail
+            return prevNode;
+        }
 
-            return currOne;
+        public ListNode RecursiveReverseList(ListNode currNode, ListNode prevNode)
+        {
+            if (currNode == null)
+            {
+                return prevNode;
+            }
 
+            ListNode nextNode = currNode.next;
+            currNode.next = prevNode;
+            prevNode = currNode;
+            currNode = nextNode;
+
+            return RecursiveReverseList(currNode, prevNode);
         }
     }
 }
