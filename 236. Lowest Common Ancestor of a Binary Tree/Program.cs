@@ -7,7 +7,7 @@ namespace _236._Lowest_Common_Ancestor_of_a_Binary_Tree
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 
@@ -24,51 +24,121 @@ namespace _236._Lowest_Common_Ancestor_of_a_Binary_Tree
     {
         public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
         {
-            Stack<TreeNode> pathToQ = new Stack<TreeNode>();
-            Stack<TreeNode> pathToP = new Stack<TreeNode>();
+            Stack<TreeNode> stackP = new Stack<TreeNode>();
+            RecurSearch(root, p, stackP);
 
-            FindPathToNode(root, p, pathToP);
-            FindPathToNode(root, q, pathToQ);
+            Stack<TreeNode> stackQ = new Stack<TreeNode>();
+            RecurSearch(root, q, stackQ);
 
-            TreeNode ancestor = root;
-            while (pathToP.Count != 0 && pathToQ.Count != 0)
+            Stack<TreeNode> fromRootToP = new Stack<TreeNode>();
+            Stack<TreeNode> fromRootToQ = new Stack<TreeNode>();
+            while (stackP.Count > 0 || stackQ.Count > 0)
             {
-                TreeNode poppedP = pathToP.Pop();
-                TreeNode poppedQ = pathToQ.Pop();
-                //Console.WriteLine("P: " + poppedP.val + ", Q: " + poppedQ.val);
-                if (poppedP.val != poppedQ.val)
+                if (stackP.Count > 0)
+                {
+                    fromRootToP.Push(stackP.Pop());
+                }
+
+                if (stackQ.Count > 0)
+                {
+                    fromRootToQ.Push(stackQ.Pop());
+                }
+            }
+
+            TreeNode answer = null;
+            while (fromRootToP.Count > 0 && fromRootToQ.Count > 0)
+            {
+                TreeNode ancestorP = fromRootToP.Pop();
+                TreeNode ancestorQ = fromRootToQ.Pop();
+                if (ancestorP.val == ancestorQ.val)
+                {
+                    answer = ancestorQ;
+                }
+                else
                 {
                     break;
                 }
-                ancestor = poppedP;
             }
 
-            return ancestor;
+            return answer;
         }
 
-        private bool FindPathToNode(TreeNode current, TreeNode target, Stack<TreeNode> path)
+        public bool RecurSearch(TreeNode currNode, TreeNode target, Stack<TreeNode> stack)
         {
-            // leaf
-            if (current == null)
-            {
-                return false;
-            }
+            stack.Push(currNode);
 
-            // found target
-            if (current.val == target.val)
+            if (currNode.val == target.val)
             {
-                path.Push(current);
                 return true;
             }
 
-            // adding path
-            if (FindPathToNode(current.left, target, path) || FindPathToNode(current.right, target, path))
+            if (currNode.left != null)
             {
-                path.Push(current);
-                return true;
+                if (RecurSearch(currNode.left, target, stack))
+                {
+                    return true;
+                }
             }
+            if (currNode.right != null)
+            {
+                if (RecurSearch(currNode.right, target, stack))
+                {
+                    return true;
+                }
+            }
+
+            stack.Pop();
 
             return false;
         }
+
+        //public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
+        //{
+        //    Stack<TreeNode> pathToQ = new Stack<TreeNode>();
+        //    Stack<TreeNode> pathToP = new Stack<TreeNode>();
+
+        //    FindPathToNode(root, p, pathToP);
+        //    FindPathToNode(root, q, pathToQ);
+
+        //    TreeNode ancestor = root;
+        //    while (pathToP.Count != 0 && pathToQ.Count != 0)
+        //    {
+        //        TreeNode poppedP = pathToP.Pop();
+        //        TreeNode poppedQ = pathToQ.Pop();
+        //        //Console.WriteLine("P: " + poppedP.val + ", Q: " + poppedQ.val);
+        //        if (poppedP.val != poppedQ.val)
+        //        {
+        //            break;
+        //        }
+        //        ancestor = poppedP;
+        //    }
+
+        //    return ancestor;
+        //}
+
+        //private bool FindPathToNode(TreeNode current, TreeNode target, Stack<TreeNode> path)
+        //{
+        //    // leaf
+        //    if (current == null)
+        //    {
+        //        return false;
+        //    }
+
+        //    // found target
+        //    if (current.val == target.val)
+        //    {
+        //        path.Push(current);
+        //        return true;
+        //    }
+
+        //    // adding path
+        //    if (FindPathToNode(current.left, target, path) || FindPathToNode(current.right, target, path))
+        //    {
+        //        path.Push(current);
+        //        return true;
+        //    }
+
+        //    return false;
+        //}
     }
 }
