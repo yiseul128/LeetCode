@@ -34,32 +34,58 @@ namespace _104.Maximum_Depth_of_Binary_Tree
             {
                 return 0;
             }
-
-            return RecurMaxDepth(root);
-
+            return RecurMaxDepth(root, 1);
         }
 
-        public int RecurMaxDepth(TreeNode node)
+        public int RecurMaxDepth(TreeNode currNode, int depth)
         {
-            if (node.left == null && node.right == null)
+            int max = depth;
+            if (currNode.left != null)
             {
-                return 1;
+                int leftDepth = RecurMaxDepth(currNode.left, depth + 1);
+                max = max > leftDepth ? max : leftDepth;
+            }
+            if (currNode.right != null)
+            {
+                int rightDepth = RecurMaxDepth(currNode.right, depth + 1);
+                max = max > rightDepth ? max : rightDepth;
             }
 
-            int right = 0;
-            int left = 0;
-            if (node.left != null)
-            {
-                left += RecurMaxDepth(node.left);
-            }
-            if (node.right != null)
-            {
-                right += RecurMaxDepth(node.right);
-            }
-
-            int depth = left > right ? left : right;
-            depth++;
-            return depth;
+            return max;
         }
+
+        //public int MaxDepth(TreeNode root)
+        //{
+        //    if (root == null)
+        //    {
+        //        return 0;
+        //    }
+
+        //    return RecurMaxDepth(root);
+
+        //}
+
+        //public int RecurMaxDepth(TreeNode node)
+        //{
+        //    if (node.left == null && node.right == null)
+        //    {
+        //        return 1;
+        //    }
+
+        //    int right = 0;
+        //    int left = 0;
+        //    if (node.left != null)
+        //    {
+        //        left += RecurMaxDepth(node.left);
+        //    }
+        //    if (node.right != null)
+        //    {
+        //        right += RecurMaxDepth(node.right);
+        //    }
+
+        //    int depth = left > right ? left : right;
+        //    depth++;
+        //    return depth;
+        //}
     }
 }
