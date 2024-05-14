@@ -28,49 +28,57 @@ namespace _437.Path_Sum_III
 
     public class Solution
     {
-        int answer = 0;
-        HashSet<TreeNode> visited = new HashSet<TreeNode>();
-
         public int PathSum(TreeNode root, int targetSum)
         {
             if (root == null)
             {
-                return answer;
+                return 0;
             }
 
-            ExplorePaths(root, Convert.ToInt64(targetSum), 0);
-            return answer;
+            Dictionary<long, int> sums = new Dictionary<long, int>();
+            sums.Add(0, 1);
+
+            return RecurPathSum(root, targetSum, 0, sums);
         }
 
-        public void ExplorePaths(TreeNode node, long targetSum, long sum)
+        public int RecurPathSum(TreeNode currNode, int targetSum, long currSum, Dictionary<long, int> sums)
         {
-            sum += Convert.ToInt64(node.val);
+            int count = 0;
 
-            if (targetSum == sum)
+            currSum += currNode.val;
+
+            // check matching target
+            long prefix = currSum - targetSum;
+            if (sums.ContainsKey(prefix))
             {
-                // Console.WriteLine(node.val);
-                answer++;
+                count += sums[prefix];
             }
 
-            if (node.left != null)
+            // add currSum as prefix
+            if (!sums.ContainsKey(currSum))
             {
-                ExplorePaths(node.left, targetSum, sum);
-                if (!visited.Contains(node.left))
-                {
-                    visited.Add(node.left);
-                    ExplorePaths(node.left, targetSum, 0);
-                }
+                sums.Add(currSum, 1);
+            }
+            else
+            {
+                sums[currSum]++;
             }
 
-            if (node.right != null)
+            if (currNode.left != null)
             {
-                ExplorePaths(node.right, targetSum, sum);
-                if (!visited.Contains(node.right))
-                {
-                    visited.Add(node.right);
-                    ExplorePaths(node.right, targetSum, 0);
-                }
+                count += RecurPathSum(currNode.left, targetSum, currSum, sums);
             }
+
+            if (currNode.right != null)
+            {
+                count += RecurPathSum(currNode.right, targetSum, currSum, sums);
+            }
+
+            sums[currSum]--;
+
+            // Console.WriteLine(currNode.val+", "+count);
+
+            return count;
         }
     }
 }
