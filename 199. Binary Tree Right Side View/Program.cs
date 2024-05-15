@@ -29,57 +29,69 @@ namespace _199.Binary_Tree_Right_Side_View
     {
         public IList<int> RightSideView(TreeNode root)
         {
-            IList<int> answer = new List<int>();
-
-            // n of nodes = 0
+            IList<int> rightSide = new List<int>();
             if (root == null)
             {
-                return answer;
+                return rightSide;
             }
-            // n of nodes = 1
-            if (root.left == null && root.right == null)
+
+            Queue<TreeNode> q1 = new Queue<TreeNode>();
+            q1.Enqueue(root);
+            Queue<TreeNode> q2 = new Queue<TreeNode>();
+
+            RecurRightSideView(q1, q2, rightSide, true);
+
+            return rightSide;
+        }
+
+        public void RecurRightSideView(Queue<TreeNode> q1, Queue<TreeNode> q2, IList<int> rightSide, bool isQ1Turn)
+        {
+            if (q1.Count == 0 && q2.Count == 0)
             {
-                answer.Add(root.val);
-                return answer;
+                return;
             }
 
-            // regular
-            Queue<TreeNode> nodes = new Queue<TreeNode>();
-            Queue<int> depths = new Queue<int>();
-
-            nodes.Enqueue(root);
-            depths.Enqueue(0);
             TreeNode currNode = null;
-            TreeNode prevNode = root;
-            int currDepth = -1;
-            int currLevel = 0;
-            while (nodes.Count != 0)
+            if (isQ1Turn)
             {
-                currNode = nodes.Dequeue();
-                currDepth = depths.Dequeue();
+                currNode = q1.Dequeue();
 
                 if (currNode.left != null)
                 {
-                    nodes.Enqueue(currNode.left);
-                    depths.Enqueue(currDepth + 1);
+                    q2.Enqueue(currNode.left);
                 }
                 if (currNode.right != null)
                 {
-                    nodes.Enqueue(currNode.right);
-                    depths.Enqueue(currDepth + 1);
+                    q2.Enqueue(currNode.right);
                 }
 
-                if (currLevel != currDepth)
+                if (q1.Count == 0)
                 {
-                    answer.Add(prevNode.val);
+                    isQ1Turn = !isQ1Turn;
+                    rightSide.Add(currNode.val);
                 }
-                currLevel = currDepth;
-                prevNode = currNode;
-                // Console.WriteLine(currNode.val);
             }
-            answer.Add(currNode.val);
+            else
+            {
+                currNode = q2.Dequeue();
 
-            return answer;
+                if (currNode.left != null)
+                {
+                    q1.Enqueue(currNode.left);
+                }
+                if (currNode.right != null)
+                {
+                    q1.Enqueue(currNode.right);
+                }
+
+                if (q2.Count == 0)
+                {
+                    isQ1Turn = !isQ1Turn;
+                    rightSide.Add(currNode.val);
+                }
+            }
+
+            RecurRightSideView(q1, q2, rightSide, isQ1Turn);
         }
     }
 }
